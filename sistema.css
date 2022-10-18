@@ -1,0 +1,391 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Nunito:wght@200&display=swap');
+
+
+
+
+
+@keyframes text {
+    from {
+        transform: translatex(0px);
+
+    }
+
+
+    to {
+        transform: translateY(-25px);
+        opacity: 1;
+    }
+}
+
+
+
+
+@keyframes cartao_01 {
+    from {
+        transform: translatex(0px);
+
+    }
+
+
+    to {
+        transform: translateY(-25px);
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes cartao {
+    to {
+        transform: rotateX(360deg)
+    }
+}
+
+
+
+@keyframes logo {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+
+    to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+
+@keyframes duvidas_botao {
+
+    0% {
+        transform: translatex(0px);
+    }
+
+    50% {
+        transform: translateY(4px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #fff;
+}
+
+body {
+    background: rgb(30, 201, 238);
+    background: linear-gradient(90deg, rgba(30, 201, 238, 1) 0%, rgba(43, 131, 205, 1) 100%, rgba(30, 201, 238, 1) 100%);
+    margin: 0 auto;
+    height: 100vh;
+    
+
+
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 200px;
+
+    height: 90px;
+    margin-bottom: 100px;
+
+}
+
+header>img {
+    animation: logo 2s 1ms ease-in-out forwards;
+    opacity: 0;
+}
+span#menu{
+    display: none;
+  }
+
+  div#menu_escondido{
+    display: none;
+  }
+
+header>a#duvidas {
+    animation: duvidas_botao 3s 1ms ease-in-out infinite;
+    height: 40px;
+    width: 100px;
+
+    border: 3px solid #fff;
+    border-radius: 5px;
+
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    color: #fff
+}
+
+header>a#duvidas:hover{
+    border: 3px solid rgb(26, 224, 135);
+  
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+main>div.container_01 {
+    width: 39%;
+    padding: 20px;
+
+}
+
+
+main>div.container_01>h1 {
+    animation: text 2s 1s ease-in-out forwards;
+    opacity: 0;
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 1px #0000005e;
+}
+
+main>div.container_01>p {
+    animation: text 2s 1s ease-in-out forwards;
+    opacity: 0;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 5px #00000017;
+    color: #ffffffe0;
+}
+
+
+main>div.container_01>#msg {
+    animation: text 2s 1s ease-in-out forwards;
+    opacity: 0;
+
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    font-size: 20px;
+    width: 300px;
+}
+
+#msg>p {
+    text-shadow: 1px 1px 5px #00000017;
+    color: #ffffff;
+}
+
+
+main>img {
+    animation: cartao_01 3s 1s ease-in-out forwards;
+    opacity: 0;
+}
+
+
+
+article#nav {
+    animation: text 2s 1s ease-in-out forwards;
+    opacity: 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.932);
+    height: 70px;
+    margin-bottom: 100px;
+    
+}
+
+div#are_de_menu{
+    margin-left: 80px;
+  
+}
+
+div#are_de_menu > a{
+    animation: text 2s 1s ease-in-out forwards;
+    opacity: 0;
+    font-size: 18px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: rgb(20, 146, 174);
+}
+
+div#are_de_menu > a:hover{
+    text-decoration: underline;
+    transition-duration: 1s;
+    color: rgb(20, 174, 125);
+  
+}
+
+section#container_text_form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+    padding: 50px;
+    background-color: aliceblue;
+
+   
+}
+
+div.container_consulta_text {
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+
+    width: 30%;
+    padding: 30px;
+    animation: text 2s 1s ease-in-out forwards;
+    opacity: 0;
+    
+    
+}
+
+div.container_consulta_text > h1{
+    font-size: 30px;
+    padding-left: 10px;
+    color: rgb(37, 151, 177);
+}
+
+div.container_consulta_text > p{
+    padding-left: 10px;
+    color: rgb(37, 151, 177);
+    border-left: 1px solid rgb(20, 174, 125);
+}
+
+div.container_consulta_text > .consultar_botao{
+    display: block;
+    margin: auto;
+    
+    padding: 5px;
+    width: 80%;
+
+
+    background-color: rgb(213, 230, 245);
+    font-size: 18px;
+    color: rgb(19, 82, 97);
+
+    border: none;
+}
+
+div.container_consulta_text > .consultar_botao:hover{
+      background-color:  rgb(20, 174, 125);
+      color: rgb(255, 255, 255);
+      transition-duration: 1s;
+      cursor: pointer;
+}
+
+div.container_consulta_text > #consultar_botao:hover{
+    border: 1px solid #fff;
+    color: rgb(20, 174, 125);
+   
+}
+
+section > img{
+    animation: text 1ms 1ms ease-in-out forwards;
+    opacity: 0;
+    display: block;
+    height: 300px;
+    border-radius: 10px;
+   
+}
+
+div.container_consulta_form{
+    display: none;
+    padding: 20px;
+    background-color: #ffffff;
+     border-radius: 20px;
+     box-shadow: 15px 4px 1px #0000001f;
+    }
+
+
+ input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+    margin: auto;
+
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid  rgb(20, 146, 174);;
+
+    color: rgb(20, 146, 174);
+}
+
+input.consultar_botao_02{
+    background-color: rgb(197, 197, 203);
+    padding: 10px;
+
+    margin-top: 50px ;
+    width: 90%;
+    border: 1px solid rgb(220, 220, 220);
+    color: #fff;
+    border-radius: 10px;
+}
+
+input::placeholder{
+    color:rgb(150, 140, 140);
+}
+
+input.consultar_botao_02:hover{
+    background-color:  rgb(20, 174, 125);
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+section#container_resp{
+    background: rgb(41,142,210);
+    background: linear-gradient(8deg, rgba(41,142,210,1) 20%, rgba(1,175,213,1) 100%);
+ margin: auto;
+    padding: 30px;
+}
+
+section#container_resp > h2{
+    text-align: center;
+    font-size: 2em;
+    color:rgb(255, 255, 255);
+}
+
+div#resposta_caixa > p{
+   display: inline;
+    text-align: center;
+    color: rgb(236, 240, 241);
+    margin-right: 80px;
+    
+}
+
+footer{
+    background-color: #fff;
+    height: 10px;
+}
+
+span#ativo{
+    color:green;
+}
+
+span#inativo{
+    color:brown;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
