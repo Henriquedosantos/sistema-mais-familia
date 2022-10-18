@@ -85,8 +85,8 @@
 
 
   header>#menu_escondido {
+    display: none;
     animation: scale-up-right 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-    display: block;
     position: absolute;
     top: 0;
     right: 0;
@@ -104,8 +104,9 @@
     }
 
     div#container_menu_escondido {
+      
       margin-top: 200px;
-      font-size: 11px;
+      font-size: 15px;
     }
 
     div#container_menu_escondido>a {
@@ -205,7 +206,7 @@
 
     div.container_consulta_form {
      
-        display: block;
+        display: none;
         height: 308px;
         font-size: 11px;
         margin-bottom: 90px;
