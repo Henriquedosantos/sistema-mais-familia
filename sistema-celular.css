@@ -1,5 +1,5 @@
 @media screen and (min-width: 755px) and (max-width:990px) {
- 
+
   span#menu {
     display: none;
   }
@@ -29,8 +29,8 @@
 
   }
 
-  section > img{
-    height:231px;
+  section>img {
+    height: 231px;
   }
 
 }
@@ -50,147 +50,167 @@
 
 
 @media screen and (min-width: 300px) and (max-width:855px) {
- 
 
-section>img {
+
+  section>img {
+    display: block;
+    height: 217px;
+
+  }
+
+
+  header {
+
+    background-color: black;
+    justify-content: space-between;
+    align-self: center;
+
+  }
+
+  span#menu {
+    display: block;
+    margin-right: 20px;
+    cursor: pointer;
+    z-index: 2;
+
+
+
+  }
+
+  span#menu:hover {
+    color: rgb(20, 81, 116);
+
+  }
+
+
+
+  header>#menu_escondido {
+    animation: scale-up-right 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 80vh;
+    width: 40vw;
+    background-color: rgba(23, 175, 235, 0.988);
+    z-index: 1;
+    text-align: center;
+    border-radius: 40px 0px 0px 40px;
+    padding: 26px;}
+
+    header>img {
+      height: 150px;
+      margin-left: 20px;
+    }
+
+    div#container_menu_escondido {
+      margin-top: 200px;
+    }
+
+    div#container_menu_escondido>a {
+      display: block;
+      margin-top: 20px;
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+    }
+
+
+
+    div#container_menu_escondido>a:hover {
+      text-decoration: underline;
+      transition-duration: 4ms;
+      color: rgb(20, 81, 116);
+    }
+
+
+
+    header>a#duvidas {
+      display: none;
+    }
+
+    main>div.container_01>#msg {
+      font-size: 9px;
+
+    }
+
+    main {
+      flex-direction: column;
+    }
+
+
+    main>div.container_01 {
+      width: 70%;
+      padding: 30px;
+    }
+
+    main>div.container_01>h1 {
+      font-size: 26px;
+      margin-bottom: 15px;
+    }
+
+    main>div.container_01>p {
+      font-size: 10px;
+    }
+
+    main>img {
+      margin-top: 40px;
+      height: 140px;
+    }
+
+    article#nav {
+      display: none;
+    }
+
+    section#container_text_form {
+
+      flex-direction: column;
+      padding: 20px;
+    }
+
+    div.container_consulta_text {
+
+      flex-direction: column;
+
+      width: 80%;
+      padding: 50px;
+
+    }
+
+    div.container_consulta_text > h1 {
+      font-size: 20px;
+      padding-left: 10px;
+      color: rgb(37, 151, 177);
+  }
+
+  div.container_consulta_text > p  {
+    font-size: 12px;
+   
+}
+
+div.container_consulta_text > .consultar_botao {
   display: block;
-  height: 217px;
-
+  margin: auto;
+  padding: 9px;
+  width: 160px;
+  background-color: rgb(213, 230, 245);
+  font-size: 13px;
+  color: rgb(19, 82, 97);
+  border: none;
 }
 
+    section>img {
+      display: block;
+      height: 159px;
+      border-radius: 15px;
+    }
 
-header {
- 
-  background-color: black;
-  justify-content: space-between;
-  align-self: center;
-  padding-left: 20px;
-  margin-bottom: 90px;
-
-
-}
-
-span#menu {
-  display: block;
-  margin-right: 20px;
-  cursor: pointer;
-  z-index: 2;
-
-
-
-}
-
-span#menu:hover {
-  color: rgb(20, 81, 116);
-
-}
-
-
-
-header>#menu_escondido {
-  animation: scale-up-right 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-  display: none;
-
-  position: absolute;
-  top: 0;
-  right: 0;
-
-  height: 100vh;
-  width: 40vw;
-  background-color: rgba(23, 175, 235, 0.988);
-
-  z-index: 1;
-  text-align: center;
-
-  border-radius: 30px 0px 0px 30px;
-}
-
-div#container_menu_escondido {
-  margin-top: 200px;
-}
-
-div#container_menu_escondido>a {
-  display: block;
-  margin-top: 20px;
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-}
-
-
-
-div#container_menu_escondido>a:hover {
-  text-decoration: underline;
-  transition-duration: 4ms;
-  color: rgb(20, 81, 116);
-}
-
-
-
-header>a#duvidas {
-  display: none;
-}
-
-main>div.container_01>#msg {
-  font-size: 17px;
-
-}
-
-main {
-  flex-direction: column;
-}
-
-
-main>div.container_01 {
-  width: 70%;
-  padding: 30px;
-}
-
-main>div.container_01>h1 {
-  font-size: 42px;
-  margin-bottom: 44px;
-}
-
-main>div.container_01>p {
-  font-size: 16px;
-}
-
-main>img {
-  margin-top: 40px;
-  height: 220px;
-}
-
-article#nav {
-  display: none;
-}
-
-section#container_text_form {
-
-  flex-direction: column;
-  padding: 20px;
-}
-
-div.container_consulta_text {
-
-  flex-direction: column;
-
-  width: 80%;
-  padding: 50px;
-
-}
-
-section>img {
-  display: block;
-  height: 259px;
-  border-radius: 15px;
-}
-
-div.container_consulta_form {
-  display: none;
-  padding: 30px;
-  margin-bottom: 85px;
-}
+    div.container_consulta_form {
+      display: none;
+      padding: 30px;
+      margin-bottom: 85px;
+    }
 
 
 
 
-}
+  }
