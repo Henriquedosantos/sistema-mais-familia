@@ -4,7 +4,7 @@
 
 @media screen and (min-width: 755px) and (max-width:1224px) {
 
-  
+
 
   span#menu {
     display: none;
@@ -15,7 +15,7 @@
     height: 200px;
   }
 
-  div#menu_escondido{
+  div#menu_escondido {
     display: none;
   }
 
@@ -51,45 +51,49 @@
 
 /* versão para celular*/
 
-@-webkit-keyframes scale-up-right {
-  0% {
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5);
-    -webkit-transform-origin: 100% 50%;
-            transform-origin: 100% 50%;
-  }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    -webkit-transform-origin: 100% 50%;
-            transform-origin: 100% 50%;
-  }
-}
-@keyframes scale-up-right {
-  0% {
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5);
-    -webkit-transform-origin: 100% 50%;
-            transform-origin: 100% 50%;
-  }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    -webkit-transform-origin: 100% 50%;
-            transform-origin: 100% 50%;
-  }
-}
 
 
 
 
-@media screen and (min-width: 390px) and (max-width:755px) {
+@media screen and (min-width: 310px) and (max-width:755px) {
+  @-webkit-keyframes scale-up-right {
+    0% {
+      -webkit-transform: scale(0.5);
+      transform: scale(0.5);
+      -webkit-transform-origin: 100% 50%;
+      transform-origin: 100% 50%;
+    }
+
+    100% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      -webkit-transform-origin: 100% 50%;
+      transform-origin: 100% 50%;
+    }
+  }
+
+  @keyframes scale-up-right {
+    0% {
+      -webkit-transform: scale(0.5);
+      transform: scale(0.5);
+      -webkit-transform-origin: 100% 50%;
+      transform-origin: 100% 50%;
+    }
+
+    100% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      -webkit-transform-origin: 100% 50%;
+      transform-origin: 100% 50%;
+    }
+  }
+
 
   section>img {
     display: block;
     height: 217px;
-   
-}
+
+  }
 
 
   header {
@@ -97,7 +101,7 @@
     align-self: center;
     padding-left: 20px;
     margin-bottom: 90px;
-    
+
 
   }
 
@@ -107,13 +111,13 @@
     cursor: pointer;
     z-index: 2;
 
-   
-   
+
+
   }
 
   span#menu:hover {
     color: rgb(20, 81, 116);
-   
+
   }
 
 
@@ -133,29 +137,29 @@
     z-index: 1;
     text-align: center;
 
-    border-radius: 30px 0px  0px  30px;
+    border-radius: 30px 0px 0px 30px;
   }
 
-  div#container_menu_escondido{
+  div#container_menu_escondido {
     margin-top: 200px;
   }
 
-  div#container_menu_escondido >a{
-    display:block;
+  div#container_menu_escondido>a {
+    display: block;
     margin-top: 20px;
     text-decoration: none;
     color: rgb(255, 255, 255);
   }
 
- 
 
-  div#container_menu_escondido >a:hover{
+
+  div#container_menu_escondido>a:hover {
     text-decoration: underline;
     transition-duration: 4ms;
     color: rgb(20, 81, 116);
   }
 
-  
+
 
   header>a#duvidas {
     display: none;
