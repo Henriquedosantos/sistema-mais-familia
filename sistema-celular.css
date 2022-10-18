@@ -61,6 +61,7 @@ section>img {
 
 header {
  
+  background-color: black;
   justify-content: space-between;
   align-self: center;
   padding-left: 20px;
