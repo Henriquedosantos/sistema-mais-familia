@@ -188,16 +188,7 @@
    
 }
 
-div.container_consulta_text > .consultar_botao {
-  display: block;
-  margin: auto;
-  padding: 9px;
-  width: 160px;
-  background-color: rgb(213, 230, 245);
-  font-size: 13px;
-  color: rgb(19, 82, 97);
-  border: none;
-}
+
 
     section>img {
       display: block;
@@ -205,10 +196,28 @@ div.container_consulta_text > .consultar_botao {
       border-radius: 15px;
     }
 
+    input.consultar_botao_02 {
+     
+      padding: 5px;
+      margin-top: 50px;
+      
+  }
+
     div.container_consulta_form {
-      display: none;
-      padding: 30px;
-      margin-bottom: 85px;
+     
+        display: block;
+        height: 308px;
+        font-size: 11px;
+        margin-bottom: 90px;
+    
+    }
+
+    input.consultar_botao_02 {
+   
+      margin-top: 15px;
+      width: 56%;
+     
+  }
     }
 
     footer{
@@ -216,4 +225,4 @@ div.container_consulta_text > .consultar_botao {
     }
 
 
-  }
+  

@@ -7,7 +7,7 @@ function trocar(){
         img_consultar.style.display = 'none'
         formulario.style.display = 'block'
         botao.value = 'Consultar meu cliente'
-        botao.value = 'Envie os dados para a consulta'
+        botao.value = 'Envie os dados'
         
         
      
