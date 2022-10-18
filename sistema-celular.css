@@ -51,6 +51,7 @@
 
 @media screen and (min-width: 300px) and (max-width:855px) {
 
+  
 
   section>img {
     display: block;
@@ -210,7 +211,9 @@ div.container_consulta_text > .consultar_botao {
       margin-bottom: 85px;
     }
 
-
+    footer{
+      height: 0vh;
+    }
 
 
   }
