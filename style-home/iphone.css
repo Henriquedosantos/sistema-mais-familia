@@ -1,0 +1,211 @@
+/* versão para iphone- celular */
+
+@media screen and (min-width: 300px) and (max-width:590px) {
+
+
+    @media screen and (min-width: 300px) and (max-width:855px) {
+
+        @-webkit-keyframes scale-up-tr {
+          0% {
+            -webkit-transform: scale(0.5);
+                    transform: scale(0.5);
+            -webkit-transform-origin: 100% 0%;
+                    transform-origin: 100% 0%;
+          }
+          100% {
+            -webkit-transform: scale(1);
+                    transform: scale(1);
+            -webkit-transform-origin: 100% 0%;
+                    transform-origin: 100% 0%;
+          }
+        }
+        @keyframes scale-up-tr {
+          0% {
+            -webkit-transform: scale(0.5);
+                    transform: scale(0.5);
+            -webkit-transform-origin: 100% 0%;
+                    transform-origin: 100% 0%;
+          }
+          100% {
+            -webkit-transform: scale(1);
+                    transform: scale(1);
+            -webkit-transform-origin: 100% 0%;
+                    transform-origin: 100% 0%;
+          }
+        }
+        
+        
+      
+        section>img {
+          display: block;
+          height: 217px;
+      
+        }
+      
+      
+        header {
+      
+          justify-content: space-between;
+          align-self: center;
+      
+        }
+      
+        span#menu {
+          display: block;
+          margin-right: 20px;
+          cursor: pointer;
+          z-index: 2;
+      
+      
+      
+        }
+      
+        span#menu:hover {
+          color: rgb(20, 81, 116);
+      
+        }
+      
+      
+      
+        header>#menu_escondido {
+          display: none;
+          position: absolute;
+          top: 0;
+          right: 0;
+          height: 80vh;
+          width: 40vw;
+          background-color: rgba(23, 175, 235, 0.988);
+          z-index: 1;
+          text-align: center;
+          border-radius: 40px 0px 0px 40px;
+          padding: 26px;}
+      
+          header>img {
+            height: 150px;
+            margin-left: 20px;
+          }
+      
+          div#container_menu_escondido {
+            
+            margin-top: 200px;
+            font-size: 15px;
+          }
+      
+          div#container_menu_escondido>a {
+            display: block;
+            margin-top: 20px;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+          }
+      
+      
+      
+          div#container_menu_escondido>a:hover {
+            text-decoration: underline;
+            transition-duration: 4ms;
+            color: rgb(20, 81, 116);
+          }
+      
+      
+      
+          header>a#duvidas {
+            display: none;
+          }
+      
+          main>div.container_01>#msg {
+            font-size: 9px;
+      
+          }
+      
+          main {
+            flex-direction: column;
+          }
+      
+      
+          main>div.container_01 {
+            width: 70%;
+            padding: 30px;
+          }
+      
+          main>div.container_01>h1 {
+            font-size: 26px;
+            margin-bottom: 15px;
+          }
+      
+          main>div.container_01>p {
+            font-size: 10px;
+          }
+      
+          main>img {
+            margin-top: 40px;
+            height: 140px;
+          }
+      
+          article#nav {
+            display: none;
+          }
+      
+          section#container_text_form {
+      
+            flex-direction: column;
+            padding: 20px;
+          }
+      
+          div.container_consulta_text {
+      
+            flex-direction: column;
+      
+            width: 80%;
+            padding: 50px;
+      
+          }
+      
+          div.container_consulta_text > h1 {
+            font-size: 20px;
+            padding-left: 10px;
+            color: rgb(37, 151, 177);
+        }
+      
+        div.container_consulta_text > p  {
+          font-size: 12px;
+         
+      }
+      
+      
+      
+          section>img {
+            display: block;
+            height: 159px;
+            border-radius: 15px;
+          }
+      
+          input.consultar_botao_02 {
+           
+            padding: 5px;
+            margin-top: 50px;
+            
+        }
+      
+          div.container_consulta_form {
+           
+              display: none;
+              height: 308px;
+              font-size: 11px;
+              margin-bottom: 90px;
+          
+          }
+      
+          input.consultar_botao_02 {
+         
+            margin-top: 15px;
+            width: 56%;
+           
+        }
+          }
+      
+          footer{
+            height: 0vh;
+          }
+      
+      
+        }      

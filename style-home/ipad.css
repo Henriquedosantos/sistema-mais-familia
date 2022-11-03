@@ -1,0 +1,46 @@
+/* Versão para Ipad - tabletes*/
+
+@media screen and (min-width: 590px) and (max-width:990px) {
+
+    @media screen and (min-width: 755px) and (max-width:990px) {
+
+
+
+        span#menu {
+          display: none;
+        }
+      
+      
+        main>img {
+          height: 200px;
+        }
+      
+        div#menu_escondido {
+          display: none;
+        }
+      
+        main>div.container_01>h1 {
+          font-size: 35px;
+          width: 100%;
+        }
+      
+        main>div.container_01>p {
+          font-size: 14px;
+        }
+      
+        article#nav {
+      
+          height: 49px;
+          margin-bottom: 30px;
+      
+        }
+      
+        section>img {
+          height: 231px;
+        }
+      
+      }
+
+
+
+}
