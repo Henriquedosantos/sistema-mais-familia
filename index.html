@@ -1,108 +1,75 @@
 <!DOCTYPE html>
-<html lang="portgues-br">
+<html lang="portugues-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style-home/pc.css" media = 'all'>
-    <link rel="stylesheet" href="style-home/iphone.css" media = ''>
-    <script src="script.js" defer></script>
-   
-
-    <title>Sistema do cartão MAIS FAMÍLIA</title>
+    <link rel="stylesheet" href="style-home/pc.css" media='all'>
+    <link rel="stylesheet" href="style-home/iphone.css" media = 'screen'>
+    <script src='script.js' defer></script>
+    <title>Sistema MAIS FAMÍLIA</title>
 </head>
 
 <body>
     <header>
-        <img src="imagens/logo.png" alt="Logo do cartão de benefícios MAIS FAMÍLIA" height="220px">
-        <a id='duvidas' href="#">Duvidas!</a>
-        <span onclick="menu_escondido()" id="menu" class="material-symbols-outlined"> menu </span>
-
-        <div id='menu_escondido'>
-            <div id = 'container_menu_escondido'>
-                <a href="#">Consulta ao cliente</a>
-                <a href="#">Atendimento do cliente</a>
-                <a href="#">Clientes MAIS FAMÍLIA</a>
-            </div>
-        </div>
-
+        <a href = "index.html"><img id='logotipo' src='imagens/logo/logo.png' alt='logo do cartão MAIS FAMÍLIA'></a>
+        <img id='menu_icon' src='imagens/icons/menu.png' alt='menu'>
     </header>
 
+    <menu id='menu' class = "scale-up-hor-right">
+        <img id='img-menu-ativo' src='imagens/icons/menu.png' alt='menu'>
+        <img class='icon-menu' src='imagens/icons/atendimento-cliente.png'><a href='#'></a>
+        <img class='icon-menu' src='imagens/icons/cliente.png'><a href='#'></a>
+        <img class='icon-menu' src='imagens/icons/procura-cliente.png'><a href='#'></a>
+    </menu>
+
+
     <main>
+        <div id='container_01'>
+            <h1 class = "anim_txt" id='h1_msg'>Consulte seu cliente aqui</h1>
+            <p class = "anim_txt" id='p_msg'>Seja bem vindo ao sistema de consulta do cartão MAIS FAMÍLIA.</p>
+            <div class='botao' id='ativar_consulta'><img src='imagens/icons/procura-cliente.png' height='25px'
+                    alt='logo do Whats-App'>Consultar associado </div>
 
-        <div class="container_01">
+            <a id = 'entre-contato' href=""><img src='imagens/icons/zap.png' height='30px' alt='logo do Whats-App'>Entre
+                em contato</a>
 
-            <h1>Sistema consulta do cartão MAIS FAMÍLIA</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae illo beatae soluta delectus eaque
-                veritatis ipsum debitis vero architecto consequatur aperiam laboriosam eius, eveniet cum doloribus
-                dolorem voluptatum, veniam ex.</p>
-            <article id="msg">
-                <span class="material-symbols-outlined">
-                    person_search
-                </span>
-                <p id='consulta_icon'>Consulte seu cliente AQUI!</p>
-            </article>
+
         </div>
+                <form id='form_container' method="POST" action="" class = "anim_simples_02">
 
-        <img src="imagens/foto-cartao.png" height="270px" alt="cartão MAIS FAMÍLIA">
+
+                    <div id='formulario_container'>
+                        <h3>Preencha os dados </h3>
+
+                        <label for='nome'>Nome do cliente</label>
+                        <input type="text" id="nome" class='inputs'>
+
+                        <label for='nome'>Cpf do cliente</label>
+                        <input type="text" id="nome">
+
+                        <label for='nome'>Número da carteirinha</label>
+                        <input type="text" id="nome">
+
+                        
+                        <input class='bt-enviar' id='submit' type="submit" value="Consultar">
+                        <input class='bt-reset' type="reset" value="Limpar dados">
+                    </div>
+
+                </form>
+
+                <article id = 'img_container'><img id='img-cartao-familia' src='https://f.hubspotusercontent40.net/hubfs/8767745/Personagens2022_500x600_Gestao-Pessoas.png'></article>
+
     </main>
 
-    <article id='nav'>
-        <div id="are_de_menu">
-            <a href="#">Consulta ao cliente</a>
-            <a href="#">Atendimento do cliente</a>
-            <a href="#">Clientes MAIS FAMÍLIA</a>
-        </div>
-
-    </article>
-
-    <section id='container_text_form'>
-        <div class='container_consulta_text'>
-            <h1>Consulte seu cliente AQUI</h1>
-            <p> Veja se nosso cliente esta em dia com nosso cartão, usando nosso sistema simples de consulta
-                informe os dados pedidos e para ver se o cliente esta <span id='ativo'>ativo</span> ou <span
-                    id='inativo'>inativo</span> em nossa rede </p>
-            <input type='button' value='Consultar meu cliente' id='botao_01' class='consultar_botao' onclick="trocar()">
-        </div>
-        <img src="imagens/consulte-png.png" id='imagem_consultar' height='100px' alt="consulta ao cliente">
 
 
 
-        <div class='container_consulta_form' id='form'>
-
-            <form action='' autocomplete='off' method="POST" action = "arquivo.php">
-                <label for='nome_empresa'>Nome da sua rede:</label><input type='text' id='nome_empresa'
-                    placeholder='Nome da sua empresa' maxlength='10' required><br>
-                <label for='nome_cliente'>Nome do cliente:</label><input type='text' id='nome_cliente'
-                    placeholder='Nome do cliente' maxlength='10' required><br>
-                <label for='cliente_cpf'>Cpf do cliente:</label><input type="number" id="cliente_cpf"
-                    placeholder='(xxx.xxx.xxx-xx)' max='11' required><br>
-                <label for="digitos_carteirinhas">Numero da carteirinha:</label><input type='number'
-                    id='digitos_carteirinhas' placeholder='ultimos quatro digitos' max='4' required>
-
-                <input class="consultar_botao_02" type="submit" value="Consultar" onclick="enviar_formulario()">
-            </form>
-
-
-        </div>
-    </section>
-
-
-    <section id='container_resp'>
-        <h2></h2>
-        <div id='resposta_caixa'>
-            <p id='p_nome'></p>
-            <p id='cpf'></p>
-            <p id='resultado_final'></p>
-        </div>
-    </section>
-
-
-    <footer></footer>
 
 
 
+    
 </body>
 
 </html>
