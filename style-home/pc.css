@@ -134,12 +134,9 @@
     font-family: Arial, Helvetica, sans-serif;}
 
 body {
-    margin: auto;
-    height: 100vh;
+        margin: auto;
     background: var(---Cor01);
-    background: linear-gradient(45deg, rgba(62, 147, 255, 1) 24%, rgba(68, 171, 223, 1) 68%);
-
-}
+    background: linear-gradient(45deg, rgba(62, 147, 255, 1) 24%, rgba(68, 171, 223, 1) 68%);}
 
 header {
     cursor: pointer;
@@ -357,3 +354,7 @@ margin-top: 5px;}
 
 .bt-reset:hover {
     background-color: rgba(168, 70, 70, 0.819);}
+
+footer{
+    height: 8vh;
+}
