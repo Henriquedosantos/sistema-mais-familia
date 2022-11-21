@@ -2,7 +2,9 @@
 
 @media screen and (min-width: 120px) and (max-width: 1116px) {
 
-
+   body{
+    height: 900px;
+   }
     
     header> a> img#logotipo {
         height: 70px;}
@@ -55,7 +57,7 @@
 
   
     div#formulario_container {
-       display: none;
+      
         padding: 26px;
         width: 12em;
     
@@ -80,7 +82,7 @@
 
 
     #img-cartao-familia {
-        height: 250px;
+        height: 225px;
     }
 
 

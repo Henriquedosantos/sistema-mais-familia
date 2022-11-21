@@ -218,7 +218,8 @@ article#img_container {
     animation: simples 1s 1s ease-in-out forwards;
     opacity: 0;
     margin: auto;
-    padding: 5px;}
+    padding: 5px;
+   }
 
 #img-cartao-familia {
     display: block;
