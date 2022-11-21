@@ -3,6 +3,7 @@
 @media screen and (min-width: 120px) and (max-width: 1116px) {
 
 
+    
     header> a> img#logotipo {
         height: 70px;}
 
@@ -10,8 +11,6 @@
     header>img#menu_icon {
         height: 35px;}
 
-    header{
-        margin-bottom: 5em;}
 
     menu {
         width: 3em;
@@ -39,14 +38,13 @@
         margin: auto;
         padding: 12px;
         font-size: 15px;
-       margin-bottom: 2em; }
+       }
 
     #container_01>a#entre-contato{
         margin: auto;
         padding: 12px;
         font-size: 15px;
          width: 80%;
-         margin-bottom: 2em;
        }
 
     #entre-contato>img{
@@ -55,10 +53,11 @@
     form {
         padding: 0px;}
 
+  
     div#formulario_container {
-       
+       display: none;
         padding: 26px;
-        width: 14em;
+        width: 12em;
     
     }
 
@@ -74,13 +73,13 @@
  
 
     .bt-enviar,.bt-reset {
-       
+        margin: auto;
         font-size: 15px;
-        padding: 5px;}
+        padding: 10px;
+        width: 80%;}
 
 
     #img-cartao-familia {
-        display: block;
         height: 250px;
     }
 
