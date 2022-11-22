@@ -1,0 +1,27 @@
+@charset  "UTF-8";
+
+/* versão para iphone- celular */
+
+
+@media screen and (min-width: 120px) and (max-width: 840px) {
+   main {
+      flex-direction: column;
+      gap: 0em;
+  }
+
+   div.container_img>#img_login {
+      display: none;
+  
+  }
+
+  form >h2 {
+   font-size: 27px;
+   margin-bottom: 28px;
+}
+
+  div.container_img>#img_login {
+    height: 300px;
+
+}
+
+}

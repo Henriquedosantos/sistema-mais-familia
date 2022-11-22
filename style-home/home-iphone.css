@@ -17,7 +17,7 @@
     menu {
         width: 3em;
         gap: 30px;
-        padding: 30px;}
+        padding: 40px;}
 
     main{
         flex-direction: column;}
