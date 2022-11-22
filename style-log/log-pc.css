@@ -45,18 +45,19 @@ main {
 
 
 div.container_img {
-    padding: 10px;
-
+    padding: 14px;
 }
 
 div.container_img>#img_login {
-    height: 300px;
+    height: 320px;
 
 }
 
+
 form {
     margin: auto;
-    padding: 25px;
+    padding: 20px;
+    width: 10em;
 }
 
 
@@ -64,9 +65,10 @@ form>h2 {
     font-family: var(---Font);
     font-weight: bold;
     color:var(---Cor01);
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+   
 }
 
 form>img {
