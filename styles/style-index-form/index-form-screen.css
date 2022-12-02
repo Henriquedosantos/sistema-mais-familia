@@ -2,6 +2,10 @@
 
 @media screen and (min-width: 120px) and (max-width: 1116px) {
 
+    body{
+        height: 900px;
+    }
+    
     header {
         padding: 24px;
         margin-bottom: 1em;
