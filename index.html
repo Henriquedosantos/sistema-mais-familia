@@ -5,23 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style-home/home-pc.css" media='all'>
-    <link rel="stylesheet" href="style-home/home-iphone.css" media='screen'>
-    <script src='script.js' defer></script>
+    <link rel="stylesheet" href="styles/style-index/index-all.css" media='all'>
+    <link rel="stylesheet" href="styles/style-index/index-screen.css" media='screen'>
+    <script src='index.js' defer></script>
     <title>Sistema MAIS FAMÍLIA</title>
 </head>
 
 <body>
     <header>
-        <a href="index.html"><img id='logotipo' src='imagens/logo/logo02.png' alt='logo do cartão MAIS FAMÍLIA'></a>
-        <img id='menu_icon' src='imagens/icons/menu.png' alt='menu'>
+        <a href="#"><img id='logotipo' src='img-all/logo-all/logo-write.png' alt='logo do cartão MAIS FAMÍLIA'></a>
+        <img id='menu_icon' src='img-all/icons-all/menu.png' alt='menu'>
     </header>
 
     <menu id='menu' class="scale-up-hor-right">
-        <img id='img-menu-ativo' src='imagens/icons/menu.png' alt='menu'>
-        <a href="log.html" target="_self"><img class='icon-menu' src='imagens/icons/atendimento-cliente.png'></a>
-        <a href="sistema.html" target="_self"><img class='icon-menu' src='imagens/icons/cliente.png'></a>
-        <a href="log.html" target="_self"><img class='icon-menu' src='imagens/icons/procura-cliente.png'></a>
+        
+        <img id='img-menu-ativo' src='img-all/icons-all/menu.png' alt='menu'>
+
+        <a href="sistema-log/tela-loging.php" target="_self"><img class='icon-menu' src='img-all/icons-all/cliente.png'></a>
+        <a href="sistema-log/tela-loging.php" target="_self"><img class='icon-menu' src='img-all/icons-all/atendimento-cliente.png'></a>
+        <a href="sistema-log/tela-loging.php" target="_self"><img class='icon-menu' src='img-all/icons-all/procura-cliente.png'></a>
+   
     </menu>
 
 
@@ -29,43 +32,16 @@
         <div id='container_01'>
             <h1 class="anim_txt" id='h1_msg'>Consulte seu cliente aqui</h1>
             <p class="anim_txt" id='p_msg'>Seja bem vindo ao sistema de consulta do cartão MAIS FAMÍLIA.</p>
-            <div class='botao' id='ativar_consulta'><img src='imagens/icons/procura-cliente.png' height='25px'
-                    alt='logo do Whats-App'>Consultar associado </div>
-
-            <a id='entre-contato'
-                href="https://api.whatsapp.com/send?phone=5513996897116&text=Ol%C3%A1%20meu%20nome%20%C3%A9...........%20sou%20da%20cl%C3%ADnica...........%20%20Estou%20tendo%20d%C3%BAvidas%20e%20como%20fazer%20a%20consulta"
-                target="_blank" rel="externol"><img src='imagens/icons/zap.png' height='30px'
-                    alt='logo do Whats-App'>Entre
-                em contato</a>
-
+            
+            <div class="bottom_consultar">
+                <img src='img-all/icons-all/procura-cliente.png' height='27px'alt='logo do Whats-App'><a href = "form-index.html">Consultar associado</a>
+            </div>
 
         </div>
        
-       
-        <form id='form_container' method="POST" action="" class="anim_simples_02">
 
-
-            <div id='formulario_container'>
-                <h3>Preencha os dados </h3>
-
-                <label for='nome'>Nome do cliente</label>
-                <input type="text" id="nome" class='inputs'>
-
-                <label for='nome'>Cpf do cliente</label>
-                <input type="text" id="nome">
-
-                <label for='nome'>Número da carteirinha</label>
-                <input type="text" id="nome">
-
-
-                <input class='bt-enviar' id='submit' type="submit" value="Consultar">
-                <input class='bt-reset' type="reset" value="Limpar dados">
-            </div>
-
-        </form>
-
-        <article id='img_container'><img id='img-cartao-familia'
-                src='https://f.hubspotusercontent40.net/hubfs/8767745/Personagens2022_500x600_Gestao-Pessoas.png'>
+        <article id='img_container'>
+            <img id='img-cartao-familia'src='https://f.hubspotusercontent40.net/hubfs/8767745/Personagens2022_500x600_Gestao-Pessoas.png' height="400px">
         </article>
 
     </main>
