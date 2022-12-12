@@ -38,9 +38,7 @@
     div#container_01> p {
         font-family: var(---Font);
         font-size: 14px;
-
         text-align: justify;
-        width: 90%;
     }
     
     div.bottom_consultar {
