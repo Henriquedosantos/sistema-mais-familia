@@ -40,7 +40,7 @@
         font-size: 14px;
 
         text-align: justify;
-        width: 90%;
+        width: 100%;
     }
     
     div.bottom_consultar {
@@ -109,6 +109,7 @@
 
         font-size: 13px;
         margin-bottom: 2em;
+      
     }
 
     form>label {
