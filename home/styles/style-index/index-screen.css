@@ -9,7 +9,7 @@
     }
 
     header>a>img#logotipo {
-        height: 80px;
+        height: 70px;
         margin-left: 1em;
     }
 
@@ -17,7 +17,7 @@
         animation: logo 1s 1s ease-in-out forwards;
         opacity: 0;
 
-        height: 40px;
+        height: 35px;
         margin-left: 2em;
     }
 
@@ -38,11 +38,12 @@
     div#container_01> p {
         font-family: var(---Font);
         font-size: 14px;
+
         text-align: justify;
+        width: 90%;
     }
     
     div.bottom_consultar {
-        width: 80%;
         margin: auto;
         padding: 10px;
 
@@ -122,20 +123,21 @@
 
     form>input {
         padding-top: 10px;
+        margin-bottom:2em;
 
     }
 
     #container_img {
-        width: 10em;
-        height: 10em;
+        width: 5em;
+        height: 5em;
         padding: 8px;
     }
 
     img#img {
         display: block;
         margin: auto;
-        height: 8em;
-        width: 10em;
+        height: 5em;
+        width: 5em;
 
 
     }
