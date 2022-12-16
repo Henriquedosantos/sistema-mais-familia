@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="portugues-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style-index/index-all.css" media='all'>
+    <link rel="stylesheet" href="../styles/style-index/index-screen.css" media='screen'>
+    <link rel="shortcut icon" href="img-all/favicon/favicon.ico" type="image/x-icon">
+    <title>Sistema do cartão MAIS FAMÍLIA</title>
+</head>
+
+<body>
+    <header>
+        <a href="#"><img id='logotipo' src='../img-all/logo-all/logo-write.png' alt='logo do cartão MAIS FAMÍLIA'></a>
+        <a id = "icone-log" href="sistema-log/tela-loging.php"><img src="../img-all/icons-all/icon-log.png" alt="icone de login"></a>
+    </header>
+
+    <main>
+        <div id='container_01'>
+            <h1 class="anim_txt" id='h1_msg'>Consulte seu cliente aqui</h1>
+            <p class="anim_txt" id='p_msg'>Seja bem vindo ao sistema de consulta do cartão MAIS FAMÍLIA.</p>
+
+            <div class="bottom_consultar">
+                <img id = "icon"src='../img-all/icons-all/procura-cliente.png'  alt='icode de consulta'><a href="#form">Consultar associado</a>
+            </div>
+
+        </div>
+
+        <article id='img_container'>
+            <img id="foto_main"src='../img-all/fotos-all/mulher-camisa-azul-cartao.png'height="500px">
+        </article>
+
+    </main>
+
+    <section id = "form">
+
+        <form method="POST" action="sistema-consulta/consultando-ass.php" >
+
+
+            <h1>Sua consulta aqui</h1>
+            <h2>Consulte aqui</h2>
+            <p>Duvidas? Entre em conatato com o escitorio!</p>
+
+            <label for="name_titular">Nome completo:</label>
+            <input type="text" id="name_titular" name="name_titular" placeholder="Araujo souza" maxlength="22">
+
+            <label for="code_carteirinha">Carteirinha:</label>
+            <input type="text" id="code_carteirinha" name="code_carteirinha" placeholder=" Ultimos quatros (xxxx)" required maxlength="4">
+
+            <div id="container_submit"><input id="bottom_consultar" type="submit" name="submit" value="Consultar cliente"></div>
+        </form>
+
+        <div id="container_img">
+            <img id="img" src="../img-all/fotos-all/img-consultar.jpg" alt="icone de consulta">
+        </div>
+    </section>
+
+</body>
+</html>

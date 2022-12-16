@@ -1,0 +1,33 @@
+@media screen and (min-width: 120px) and (max-width: 1116px) {
+
+
+    main{
+        padding:20px;
+        width: 20em;
+
+    }
+
+        
+    h1{
+       
+        font-size: 24px;
+        
+    }
+         
+        
+    
+p{
+    font-size: 14px;
+}
+
+
+a#retornar, a#links{
+   
+    font-size: 13px;
+    padding: 8px;
+ 
+}
+
+ 
+ 
+}

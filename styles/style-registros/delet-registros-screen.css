@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/* versão para iphone- celular */
+
+
+@media screen and (min-width: 120px) and (max-width: 870px) {
+
+
+    main{
+        padding: 20px;
+        width: 19em;
+    }
+
+    main > h1{
+        font-size: 20px;
+    }
+
+
+    main > p{
+        font-size: 14px;
+    }
+
+    a#apagar, a#cancelar{
+        font-size: 12px;
+    }
+
+
+}

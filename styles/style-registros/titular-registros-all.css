@@ -1,0 +1,211 @@
+@charset  "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+
+
+
+:root {
+    ---Font: 'Nunito', sans-serif;
+    ---Cor01: rgb(62, 147, 255);
+    ---Cor03: #034e6bd0;
+    ---Cor04: #036b05df;}
+
+*{
+    margin: 0px;
+    padding:0px;
+    text-decoration: none;}
+
+
+body{
+    background: linear-gradient(45deg, rgba(62, 147, 255, 1) 24%, rgba(68, 171, 223, 1) 68%);
+    height: 100vh;
+}
+
+
+
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 11em;
+
+    border-bottom: 2px solid #fff;
+    margin-bottom: 3em;
+    padding: 11px;
+}
+
+
+img.logotipo{
+    height: 90px;
+    margin-right: 40px;
+}
+
+
+header > img#menu_icon{
+
+    position: absolute;
+    left: 0;
+
+    margin-left: 45px;
+    height: 40px;
+    cursor: pointer;
+  
+}
+
+header > a#link_retor{
+    background-color: var(---Cor03);
+    border-radius: 10px;
+    padding: 5px;
+    width: 7em;
+
+    text-decoration: none;
+    text-align: center;
+
+
+    font-family: var(---Font);
+    color: #fff;
+    font-weight: bold;
+}
+
+
+header > a#link_retor:hover{
+    background-color: rgb(18, 193, 20);
+    transition-duration: 1s;
+}
+
+
+
+div#box-pesq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3%;
+    margin-bottom: 2em;
+}
+
+div#box-pesq > input{
+    width: 30em;
+    height: 2em;
+
+    border: none;
+    outline: none;
+    padding: 10px;
+
+    font-family: var(---Font);
+    font-weight: bold;
+    color: var(---Cor01);
+
+    border-radius: 5px;
+}
+
+
+
+button#button{
+    background-color: #ffff;
+    border: none;
+    border-radius: 5px;
+
+}
+
+
+button#button:hover{
+    background-color: rgba(254, 255, 253, 0.856);
+
+}
+
+
+
+
+div.table-responsive{
+    margin: auto;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.473);
+    border-radius: 25px 21px 0px 5px;
+}
+
+th{
+    color:rgba(15, 101, 138, 0.903);
+    font: var(---Font);
+    font-weight: bold;
+}
+
+td{
+    font-weight: 400;
+}
+
+th:hover{
+    color:rgba(10, 60, 81, 0.903);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+tr:nth-child(even) {
+    background:aliceblue;
+  }
+
+  td,th{
+    text-align: center;
+   color: #17587f;
+}
+  td#num{
+    text-align: right;
+  }
+
+
+img#icons{
+    height: 20px;
+}
+
+img#icons:hover{
+    transform: scale(1.4);
+    transition-duration: 1s;
+}
+
+
+
+
+
+
+
+
+
+/* TRATAMENTO PARA VIEWS*/
+
+td#ativo{
+    font-family: var(---Font);
+    font-weight: bold;
+    color: rgb(26 118 26);
+}
+
+
+
+td#inativo{
+    font-family: var(---Font);
+    font-weight: bold;
+    color: brown;
+}
+
+
+td#edicao{
+
+    font-weight: 500;
+    color: #3b8f2e;
+}
+
+td#nulos{
+    color: #d18409;
+    font-weight: 500;
+}
+
+td#delete{
+    background-color: #e1747496;
+    font-weight: 500;
+    color: #fff;
+}
+
+td#edit-hj{
+    background-color: #15c2376b;
+    font-weight: 500;
+    color: #ffff;
+}

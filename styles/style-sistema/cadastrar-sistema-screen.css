@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/* versão para iphone- celular */
+
+
+@media screen and (min-width: 120px) and (max-width: 870px) {
+
+    body {
+        height: 100vh;
+    }
+
+    header>img {
+        height: 60px;
+    }
+
+    header>a {
+        font-size: 14px;
+    }
+
+    section {
+        display: none;
+    }
+
+    h1 {
+        display: none;
+    }
+
+
+    h1.msg_h1 {
+        display: block;
+        text-align: center;
+        font-size: 14px;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+
+
+
+}
