@@ -1,0 +1,105 @@
+/* versão para ipad - tabletes */
+
+@media screen and (min-width: 667px) and (max-width: 1040px) {
+
+    header>a>img#logo {
+
+        height: 80px;
+    }
+
+
+    header>a#Link-login {
+        width: 3em;
+    }
+
+
+    main {
+        gap: 3em;
+        padding: 4em 0em 7em 0em;
+    }
+
+
+
+    div#container_one {
+
+        width: 20em;
+        padding: 8px;
+    }
+
+    div#container_one>h4 {
+        font-size: 15px;
+    }
+
+    div#container_one>h1 {
+        font-size: 25px;
+    }
+
+    div#container_one>p,
+    a#link-whaatsApp {
+        font-size: 14px;
+
+    }
+
+
+    div#container_one>a#link-consultar {
+
+        width: 70%;
+        padding: 6px;
+        font-size: 14px;
+
+    }
+
+
+
+    main>#imagem-one {
+        height: 20em;
+    }
+
+    /*FORUMLARIO */
+
+    section {
+
+        gap: 4em;
+        padding: 15px;
+    }
+
+    form {
+
+        width: 15em;
+        padding: 10px;
+
+    }
+
+
+
+    form>h2 {
+        font-size: 14px;
+    }
+
+    form>label {
+        font-size: 13px;
+    }
+
+
+    input#bottom-consultar {
+        padding: 8px;
+        font-size: 12px;
+
+    }
+
+
+    img#img-consultar {
+        height: 169px;
+    }
+
+
+    input::placeholder{
+        font-size: 11px;
+        color: #84a0ab
+    }
+
+
+
+
+
+}

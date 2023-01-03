@@ -1,148 +1,113 @@
-/* versão para iphone- celular */
+﻿/* versão para iphone- celular */
 
-@media screen and (min-width: 120px) and (max-width: 1116px) {
+@media screen and (min-width: 375px) and (max-width: 667px) {
 
     
-    header{
-        align-items: center;
-        margin-bottom: 4em;
-    }
+    header>a>img#logo {
 
-    header>a>img#logotipo {
-        height: 70px;
-        margin-left: 1em;
-    }
-
-    header>#icone-log>img {
-        animation: logo 1s 1s ease-in-out forwards;
-        opacity: 0;
-
-        height: 35px;
+        height: 60px;
         margin-left: 2em;
     }
 
-    main{
-        align-items: flex-start;
+
+    header>a#Link-login {
+        width: 3em;
+        font-size: 14px;
+        margin-right: 2em;
+        animation: none;
+    }
+    
+    main {
         flex-direction: column;
-        width: 20em;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 4em 0em 7em 0em;
 
-        gap: 5em;
+        padding-top: 5em;
     }
 
-    div#container_01>h1 {
-        font-family: var(---Font);
-        font-size: 25px;
-        text-align: center;
-    }
+    div#container_one {
 
-    div#container_01> p {
-        font-family: var(---Font);
-        font-size: 14px;
-
-        text-align: justify;
-        width: 100%;
-    }
-    
-    div.bottom_consultar {
         margin: auto;
-        padding: 10px;
-
+        width: 40%;
+        padding: 7px;
     }
     
 
-    div.bottom_consultar>a {
-        font-family: var(---Font);
-        font-size: 14px;
+    div#container_one>h4 {
+        font-size: 12px;
     }
 
+    div#container_one>h1 {
+        font-size:18px;
+    }
 
+    div#container_one>p,
+    a#link-whaatsApp {
+        font-size: 12px;
 
-    article#img_container, article#img_container>img#foto_main {
-        height: 236px;
-        margin: auto;
-        width: 17em;
+    }
+
+    div#container_one>a#link-consultar {
+
+        padding: 5px;
+        font-size: 11px;
+        width: 80%;
+
+    }
+
+    main>#imagem-one {
+        height: 10em;
     }
     
-   
-  
+
     
-
-    /*formulario*/
-
+    /*FORUMLARIO */
 
     section {
-        display: flex;
-        flex-direction: column-reverse;
 
-
-        margin: auto;
-        height: 30em;
-        width: 20em;
-        padding: 20px;
+        flex-direction: column;
+        gap:10px;
+        padding: 10px;
     }
 
     form {
-        display: flex;
-        flex-direction: column;
 
-        border-right: none;
-        border-top: 1px solid rgb(62, 146, 255);
-
-
-        width: 18em;
-        height: 22em;
-
+       
+        width: 9em;
+        padding: 5px;
 
     }
 
-    form>h1 {
-        font-size: 24px;
-        margin-bottom: 8px;
-        margin-top: 5px;
-    }
-
+    
     form>h2 {
-        font-size: 14px;
-        margin-bottom: 17px;
-    }
-
-    form>p {
-
-        font-size: 13px;
-        margin-bottom: 2em;
-      
+        font-size: 12px;
     }
 
     form>label {
-        font-size: 14px;
-        color: var(---Cor01);
+        font-size: 10px;
     }
 
-    input#bottom_consultar {
-        width: 70%;
-        margin-bottom: 2em;
-    }
-
-    form>input {
-        padding-top: 10px;
-        margin-bottom:2em;
+    
+    input#bottom-consultar {
+        padding: 4px;
+        font-size: 9px;
+        width: 100%;
 
     }
 
-    #container_img {
-        width: 5em;
-        height: 5em;
-        padding: 8px;
-    }
-
-    img#img {
-        display: block;
-        margin: auto;
-        height: 5em;
-        width: 5em;
-
-
+    img#img-consultar {
+        height:100px;
     }
 
 
+    input::placeholder{
+        font-size: 9px;
+        color: #84a0ab
+    }
+
+
+
+    
+   
 }

@@ -1,15 +1,73 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="portugues-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/style-index/index-all.css" media='all'>
+    <link rel="stylesheet" href="styles/style-index/index-screen.css" media='screen'>
+    <link rel="stylesheet" href="styles/style-index/index-ipad.css" media='screen'>
+    <link rel="shortcut icon" href="img-all/favicon/favicon.ico" type="image/x-icon">
+    <title>Sistema de consulta do cartão MAIS FAMÍLIA</title>
 </head>
+
 <body>
-    <h1>paginas do sistema</h1>
-    <img src="https://uploads.jovemnerd.com.br/wp-content/uploads/2022/12/wandinha_terceira_maior_serie_netflix__j0v232-1210x544.jpg" width = "300px" height = "300px" alt=""><br><br>
-    <a href="pagina 01/index.html"><h2>inicio</h2></a>
-    <a href="formulario-atender/form-atender.html"><h2>formulario-atender</h2></a>
+    <header>
+        <a href="#"><img id='logo' src='img-all/logo-all/logo-sem-fundo.png' alt='logo do cartão MAIS FAMÍLIA'></a>
+        <a id="Link-login" href="">Login</a>
+    </header>
+
+    <main>
+
+        <div id="container_one">
+            <h4>Rápido, fácil e pratico!</h4>
+
+            <h1>
+                Seja bem vindo ao nosso sistema de consulta ao associado.
+            </h1>
+
+            <p>
+                Caso tenha duvidas de como consultar o seu associado em nosso sistema de consulta, <a
+                    id="link-whaatsApp" href="">click aqui</a> e tire suas dúvidas com o escritório.
+            </p>
+
+            <a id="link-consultar" href=""#form>Consultar associado</a>
+
+
+        </div>
+
+
+        <img id="imagem-one" src="https://cdns1.2rscms.com.br/custom/2289/uploads/cartao/moca-com-cartao-dois.png" alt="mulher-segurando-cartao-mais-família">
+    </main>
+
+
+    <section name ="form">
+
+        <form method="POST" action="sistema-consulta/consultando-ass.php" >
+
+
+            <h2>
+               Preencha os campos
+            </h2>
+
+
+            <label for="name_titular">Nome e sobrenome do titular:</label>
+            <input type="text" id="name_titular" name="name_titular" placeholder="Araujo souza" maxlength="22">
+
+            <label for="code_carteirinha">Nº carteirinha:</label>
+            <input type="text" id="code_carteirinha" name="code_carteirinha" placeholder=" Ultimos quatro dígitos (xxxx)" required maxlength="4">
+
+            <div id="container_submit"><input id="bottom-consultar" type="submit" name="submit" value="Consultar associado"></div>
+        </form>
+
+        <img id = "img-consultar" src="img-all/fotos-all/img-consultar.jpg"  alt="consulta ao associado">
+    </section>
+
+
+
+
+
 </body>
+
 </html>
