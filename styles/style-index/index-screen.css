@@ -23,19 +23,21 @@
         align-items: center;
         padding: 4em 0em 7em 0em;
 
+        gap: 1em;
+
         padding-top: 5em;
     }
 
     div#container_one {
 
         margin: auto;
-        width: 40%;
+        width: 60%;
         padding: 7px;
     }
     
 
     div#container_one>h4 {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     div#container_one>h1 {
@@ -52,7 +54,7 @@
 
         padding: 5px;
         font-size: 11px;
-        width: 80%;
+        width: 100%;
 
     }
 
@@ -67,42 +69,42 @@
     section {
 
         flex-direction: column;
-        gap:10px;
+        gap:14px;
         padding: 10px;
     }
 
     form {
 
        
-        width: 9em;
+        width: 14em;
         padding: 5px;
 
     }
 
     
     form>h2 {
-        font-size: 12px;
+        font-size: 15px;
     }
 
     form>label {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     
     input#bottom-consultar {
-        padding: 4px;
-        font-size: 9px;
+        padding: 6px;
+        font-size: 12px;
         width: 100%;
 
     }
 
     img#img-consultar {
-        height:100px;
+        height:140px;
     }
 
 
     input::placeholder{
-        font-size: 9px;
+        font-size: 10px;
         color: #84a0ab
     }
 
