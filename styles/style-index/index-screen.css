@@ -56,12 +56,14 @@
 
     div#container_one>a#link-consultar {
 
-        padding: 4px;
+        padding: 8px;
         font-size: 13px;
-        width: 80%;
-        margin:auto;    
-
+        width: 60%;
+       
     }
+      
+
+    
 
     main>#imagem-one {
         height: 13em;
