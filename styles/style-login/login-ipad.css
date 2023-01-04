@@ -1,17 +1,12 @@
 /* versão para ipad - tabletes */
 
 @media screen and (min-width: 720px) and (max-width:1180px) { 
-
-    body{
-        background-color: rgb(206, 213, 219);
-    }
-
-
+   
     main{
        
-        padding: 15px;
+        padding: 30px;
         width: 25em;
-        height: 25em;
+        height: 29em;
         
     }
 
@@ -36,18 +31,31 @@
 
     form > input{
      
-        padding: 10px;  
+        padding: 18px;  
         margin-bottom: 30px;
         width: 90%;
+        font-size: 28px;
      
     }
 
+
+    form > input::placeholder{
+     
+       font-size: 28px;
+     
+    }
+
+
     input.login{
-        font-family: var(---Font);
-        font-size: 25px;
-        width: 80%;
+       
+        padding: 10px;
+        width: 90%;
+        font-size: 18px;
+
        
     }
+
+  
 
   
 }

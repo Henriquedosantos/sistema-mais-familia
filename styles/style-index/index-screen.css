@@ -9,7 +9,7 @@
 
     header>a>img#logo {
 
-        height: 60px;
+        height: 56px;
         margin-left: 1em;
     }
 
@@ -17,7 +17,7 @@
     header>a#Link-login {
         width: 3em;
         font-size: 12px;
-        margin-right: 1em;
+        margin-right:8%;
         animation: none;
     }
     

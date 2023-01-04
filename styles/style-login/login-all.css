@@ -34,7 +34,8 @@ main{
     padding: 25px;
     border-radius: 10px;
 
-    width: 22em;
+    width:30em;
+    
   
     
 }
@@ -86,13 +87,14 @@ input.login{
     border: none;
 
     font-family: var(---Font);
-    font-size: 15px;
+    font-size: 14px;
     font-weight: bold;
     color: #fff;
 
     cursor: pointer;
 
     margin-top: 1em;
+
 }
 
 input.login:hover{
