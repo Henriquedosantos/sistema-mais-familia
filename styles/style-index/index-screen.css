@@ -15,8 +15,8 @@
 
 
     header>a#Link-login {
-        width: 3em;
-        font-size: 14px;
+        width: 5em;
+        font-size: 12px;
         margin-right: 2em;
         animation: none;
     }
@@ -45,7 +45,7 @@
     }
 
     div#container_one>h1 {
-        font-size:18px;
+        font-size:21px;
     }
 
     div#container_one>p,
@@ -64,7 +64,7 @@
     }
 
     main>#imagem-one {
-        height: 10em;
+        height: 13em;
     }
     
 
