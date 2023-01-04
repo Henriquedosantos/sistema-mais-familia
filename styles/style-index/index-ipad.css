@@ -20,7 +20,7 @@
 
 
     main {
-        gap: 6em;
+        gap: 2em;
         padding: 30px
     }
 
@@ -58,7 +58,7 @@
 
 
     main>#imagem-one {
-        height: 20em;
+        height:16em;
     }
 
     /*FORUMLARIO */
