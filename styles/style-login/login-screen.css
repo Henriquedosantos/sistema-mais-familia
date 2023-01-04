@@ -1,15 +1,9 @@
 ﻿/* versão para iphone- celular */
 
-@media screen and (min-width: 220px) and (max-width:912px)  {
+@media screen and (min-width: 220px) and (max-width:720px)  {
 
   body {
-    background-color: blanchedalmond;
-  }
-
-
-
-  body {
-    background-color: rgb(206, 213, 219)
+    background-color: rgb(206, 213, 219);
   }
 
 
@@ -31,7 +25,7 @@
 
   form>input {
 
-    padding: 3px;
+    padding: 8px;
     border: 1px solid #00000045;
     margin-bottom: 1em;
 }
@@ -43,4 +37,8 @@
     font-size: 12px;
     padding: 5px;
 
+  }
+
+  form > input::placeholder{
+    font-size: 12px;
   }
