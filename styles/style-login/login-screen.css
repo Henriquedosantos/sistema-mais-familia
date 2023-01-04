@@ -1,0 +1,46 @@
+﻿/* versão para iphone- celular */
+
+@media screen and (min-width: 220px) and (max-width:912px)  {
+
+  body {
+    background-color: blanchedalmond;
+  }
+
+
+
+  body {
+    background-color: rgb(206, 213, 219)
+  }
+
+
+  main {
+
+    padding: 20px;
+    width: 13em;
+
+  }
+
+
+  h1 {
+    font-size: 25px;
+  }
+
+  h3{
+    font-size:13px;
+  }
+
+  form>input {
+
+    padding: 3px;
+    border: 1px solid #00000045;
+    margin-bottom: 1em;
+}
+
+  }
+
+  input.login {
+    font-family: var(---Font);
+    font-size: 12px;
+    padding: 5px;
+
+  }

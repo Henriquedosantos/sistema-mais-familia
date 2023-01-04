@@ -1,0 +1,52 @@
+/* versão para ipad - tabletes */
+
+@media screen and (min-width: 912px) and (max-width:1180px) { 
+
+    body{
+        background-color: rgb(206, 213, 219)
+    }
+
+
+    main{
+       
+        padding: 15px;
+        width: 18em;
+        
+    }
+
+
+    h1{
+     
+        font-size: 2em;
+        font-weight: bold;
+        color: #278AC4;
+    }
+    
+    h3{
+        font-size:12px;   
+       
+        font-weight: 600;
+        color: #1bafbfc0;
+    }
+
+    form{
+        padding: 8px;
+       
+    }
+
+    form > input{
+     
+        padding: 8px;  
+        margin-bottom: 30px;
+        width: 80%;
+     
+    }
+
+    input.login{
+        font-family: var(---Font);
+        font-size: 14px;
+        width: 80%;
+       
+    }
+
+}
