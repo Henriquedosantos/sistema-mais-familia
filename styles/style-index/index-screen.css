@@ -10,14 +10,14 @@
     header>a>img#logo {
 
         height: 60px;
-        margin-left: 2em;
+        margin-left: 1em;
     }
 
 
     header>a#Link-login {
         width: 3em;
         font-size: 12px;
-        margin-right: 2em;
+        margin-right: 1em;
         animation: none;
     }
     
