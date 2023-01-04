@@ -1,6 +1,6 @@
 ﻿/* versão para iphone- celular */
 
-@media screen and (min-width: 220px) and (max-width: 820px) {
+@media screen and (min-width: 220px) and (max-width:912px) {
 
     body{
         height: 100vh;
