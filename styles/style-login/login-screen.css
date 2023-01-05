@@ -1,46 +1,90 @@
 ﻿/* versão para iphone- celular */
 
+@media screen and (min-width: 220px) and (max-width:480px) {
+  /*body {
+    background-color: rgb(133, 65, 13);
+  }*/
 
-@media screen and (min-width: 280px) and (max-width:653px) {
-  /*{
-    background-color: rgb(14, 81, 101);
+
+  main {
+    width: 42%;
+  }
+
+
+  h1 {
+    margin-bottom: 9px;
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 10px;
+
+  }
+
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+  }
+
+  form>input {
+
+    padding: 4px;
+
+  }
+
+  form>input::placeholder {
+    font-size: 10px;
+  }
+
+
+  input.login {
+    font-size: 10px;
+    padding: 4px;
+
+  }
+
+}
+
+@media screen and (min-width: 412px) and (max-width:914px) {
+
+ /* body {
+    background-color: orange;
   }*/
 
 
 
-  main {
-
-    width: 12em;
-    padding: 25px;
-
-  }
-
   h1 {
-    font-size: 22px;
+    margin-bottom: 9px;
+    font-size: 26px;
   }
 
   h3 {
-    font-size: 14px;
+    font-size: 18px;
+
   }
 
-  form {
-    width: 90%;
+  main{
+    width:50%;
   }
 
   form>input {
-    width: 90%;
-    padding: 5px;
-    margin-bottom: 10px;
 
-  }
-
-  input.login {
-    font-size: 10px;
+    padding: 12px;
 
   }
 
   form>input::placeholder {
     font-size: 14px;
+  }
+
+
+  input.login {
+    font-size: 14px;
+    padding: 4px;
+
   }
 
 }
