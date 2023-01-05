@@ -1,63 +1,98 @@
 /* versão para ipad - tabletes */
 
-@media screen and (min-width: 720px) and (max-width:1180px) { 
-   
-    main{
-       
+@media screen and (min-width: 481px) and (max-width:768px) {
+
+   /* body {
+        background-color: rgb(69, 133, 13);
+    }*/
+
+
+    main {
+        width: 40%;
         padding: 10px;
-        width: 25em;
-        /* height: 24em; */
-    
-        
+
     }
 
-
-    h1{
-     
-        font-size: 2em;
-        font-weight: bold;
-        color: #278AC4;
-    }
-    
-    h3{
-        font-size:18px;   
-        font-weight: 600;
-        color: #1bafbfc0;
+    h1 {
+        font-size: 35px;
     }
 
-    form{
-        padding: 15px;
-       
-    }
-
-    form > input{
-     
-        padding:10px;  
-        margin-bottom: 30px;
-        width: 90%;
-        font-size: 22px;
-     
-    }
-
-
-    form > input::placeholder{
-     
-       font-size: 18px;
-     
-    }
-
-
-    input.login{
-       
-        padding: 10px;
-        width: 90%;
+    h3 {
         font-size: 18px;
-
-       
     }
 
+    form {
+        padding: 10px;
+    }
 
-  
+    form>input {
+        width: 70%;
+        padding: 5px;
+        margin-bottom: 10px;
+
+    }
+
+    form>input,
+    form>input::placeholder {
+        font-size: 15px;
+    }
+
+    input.login {
+        font-size: 14px;
+        padding:8px;
+
+    }
 }
 
 
+/*ADAPTAÇÃO*/
+
+@media screen and (min-width: 769px) and (max-width:1024px) {
+    /*body {
+        background-color: rgb(133, 13, 13);
+    }*/
+
+
+
+
+    main {
+
+        width: 30%;
+        padding: 10px;
+
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 19px;
+    }
+
+    main{
+        width: 40%;
+    }
+
+    form {
+        width: 90%;
+        padding: 15px;
+    }
+
+    form>input {
+        width: 70%;
+        padding: 10px;
+
+    }
+
+    form>input,
+    form>input::placeholder {
+        font-size: 14px;
+    }
+
+    input.login {
+        font-size: 14px;
+        padding: 9px;
+
+    }
+}
