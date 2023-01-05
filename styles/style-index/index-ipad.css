@@ -1,11 +1,12 @@
 /* versão para ipad - tabletes */
 
-@media screen and (min-width: 912px) and (max-width:1180px) {
+@media screen and (min-width: 481px) and (max-width:768px ) {
 
 
 
     body {
         height: 100vh;
+        background-color: aquamarine;
     }
 
     header>a>img#logo {
@@ -57,7 +58,7 @@
 
 
     main>#imagem-one {
-        height: 16em;
+        height: 14em;
     }
 
     /*FORUMLARIO */
@@ -108,3 +109,6 @@
 
 
 }
+
+
+

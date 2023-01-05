@@ -1,9 +1,10 @@
 ﻿/* versão para iphone- celular */
 
-@media screen and (min-width: 220px) and (max-width:912px) {
+@media screen and (min-width: 220px) and (max-width:480px) {
 
     body{
         height: 100vh;
+        background-color: rgb(17, 17, 184);
     }
 
 
