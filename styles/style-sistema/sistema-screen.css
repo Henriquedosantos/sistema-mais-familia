@@ -1,8 +1,8 @@
 ﻿/* versão para iphone- celular */
 
-@media screen and (min-width: 220px) and (max-width:480px) {
+@media screen and (min-width: 220px) and (max-width:708px) {
   body {
-    background-color: rgb(187, 233, 187);
+    background-color: rgb(127, 228, 127);
   }
 
 
@@ -11,23 +11,25 @@
   }
 
   div#container-log {
-    gap:8px;
-    margin-right: 4%;    
-    padding: 8px;
+    gap: 8px;
+    margin-right: 8%;
+    padding: 4px;
   }
 
   header>div#container-log>img#img-login {
-    height: 25px;
+    height: 30px;
+
   }
 
   header>div#container-log>a {
-    font-size: 10px;
+    display: none;
+    font-size: 18px;
   }
 
 
   header>img#img-logo {
-    height: 60px;
-    margin-left: 3%;
+    height: 70px;
+    margin-left:2%;
   }
 
   div.container {
@@ -37,40 +39,191 @@
 
 
   /*MAIN*/
-  div.container-cards{
+
+
+ 
+
+
+  main {
+    padding: 9px;
+  }
+
+
+  div.container-cards {
     display: flex;
     gap: 10px;
     width: 18em;
+    padding: 7px;
 
-    background-color: antiquewhite;
-   }
+    background-color: rgb(170, 148, 120);
+  }
 
+
+  div.card {
+
+    padding: 1px;
+    height: 100px;
+    width: 65px;
+  }
+
+
+
+  div.card>img.img-card {
+    display: block;
+    margin: auto;
+    height: 30px;
+    padding-top: 25px;
+  }
+
+
+  h3.card-text,
+  a.link-card {
+    font-size: 10px;
+    text-align: none;
+
+  }
+
+
+  div#card-encerrar {
+    width: 14em;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* versão para iphone- celular - ADAPTAÇÃO*/
+
+
+
+@media screen and (min-width:590px) and (max-width:709px) {
+  body {
+    background-color: azure;
+  }
+
+
+  header>img#img-logo {
+    height: 70px;
+    margin-left: 3%;
+  }
+
+  header>div#container-log{
+    margin-right: 4%;
+    padding: 10px;
+  }
+
+  header>div#container-log>img#img-login {
+    height: 30px;
+  }
+
+  header>div#container-log>a {
+    font-size: 15px;
+  }
+
+
+
+  div.card {
+
+    padding: 1px;
+    height: 80px;
+    width: 65px;
+  }
+
+
+  div.card>img.img-card {
+    height: 25px;
+    padding-top: 15px;
+  }
+  
+  div#card-encerrar {
+    width: 14em;
+  }
+
+
+}
+
+
+@media screen and (min-width:710px) and (max-width:1180px){
+  body {
+    background-color: rgb(40, 62, 62);
+  }
+
+
+  header{
+    padding: 0px;
+  }
+
+  header>img#img-logo {
+    height: 80px;
+    margin-left: 3%;
+  }
+
+  header>div#container-log{
+    margin-right: 4%;
+    padding: 10px;
+  }
+
+  header>div#container-log>img#img-login {
+    height: 35px;
+  }
+
+  header>div#container-log>a {
+    font-size: 15px;
+  }
+
+  main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0px;
+  }
+
+  div.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 1em;
    
-div.card{
- 
-  padding: 0px;
-  height: 120px;
-  width: 65px;
-}
+  }
 
+  
+  div.card>img.img-card {
+    height: 25px;
+    padding-top: 0px;
+  }
+  
+  div#card-encerrar {
+    width: 20em;
+  }
 
+  h3.card-text{
+    font-size: 14px;
+  }
 
-div.card > img.img-card{
-  display: block;
-  margin: auto;
-  height:40px;
-  padding-top: 30px;
-}
-
-
-h3.card-text, a.link-card{
-  font-size: 10px;
-  text-align: none;
+  
 
 }
 
 
-div#card-encerrar{
-  width: 14em;
-}
-}
+
+
+
+
+
