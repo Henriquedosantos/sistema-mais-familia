@@ -111,7 +111,7 @@
 
 
 
-@media screen and (min-width:590px) and (max-width:709px) {
+@media screen and (min-width:590px) and (max-width:710px) {
   body {
     background-color: azure;
   }
@@ -136,7 +136,6 @@
   }
 
 
-
   div.card {
 
     padding: 1px;
@@ -146,7 +145,7 @@
 
 
   div.card>img.img-card {
-    height: 25px;
+    height: 30px;
     padding-top: 15px;
   }
   
@@ -154,65 +153,12 @@
     width: 14em;
   }
 
+ 
+
+
 
 }
 
-
-@media screen and (min-width:710px) and (max-width:1180px){
-  body {
-    background-color: rgb(40, 62, 62);
-  }
-
-
-  header{
-    padding: 0px;
-  }
-
-  header>img#img-logo {
-    height: 80px;
-    margin-left: 3%;
-  }
-
-  header>div#container-log{
-    margin-right: 4%;
-    padding: 12px;
-  }
-
-  header>div#container-log>img#img-login {
-    height: 20px;
-  }
-
-  header>div#container-log>a {
-    font-size: 15px;
-  }
-
-  main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  
-    padding: 1px;
-   
-  }
-
-  
-  
-  div.card>img.img-card {
-    height: 45px;
-    padding-top: 0px;
-  }
-  
-  div#card-encerrar {
-    width: 20em;
-  }
-
-  h3.card-text{
-    font-size: 14px;
-  }
-
-  
-
-}
 
 
 

@@ -114,6 +114,8 @@ div.card{
 
     padding: 12px;
     width: 140px;
+    height: 92px;
+ 
 }
 
 div.card:hover{
@@ -124,7 +126,7 @@ div.card:hover{
 div.card > img.img-card{
     display: block;
     margin: auto;
-    height: 59px;
+    height: 70px;
     padding-bottom: 0px;
 }
 
