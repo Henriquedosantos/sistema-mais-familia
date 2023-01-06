@@ -1,9 +1,9 @@
 ﻿/* versão para iphone- celular */
 
 @media screen and (min-width: 220px) and (max-width:708px) {
-  body {
+  /*body {
     background-color: rgb(127, 228, 127);
-  }
+  }*/
 
 
   header {
@@ -55,7 +55,6 @@
     width: 18em;
     padding: 7px;
 
-    background-color: rgb(170, 148, 120);
   }
 
 
@@ -112,9 +111,9 @@
 
 
 @media screen and (min-width:590px) and (max-width:710px) {
-  body {
+  /*body {
     background-color: azure;
-  }
+  }*/
 
 
   header>img#img-logo {

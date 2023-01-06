@@ -1,9 +1,9 @@
 
 
 @media screen and (min-width:711px) and (max-width:1170px){
-    body {
+   /* body {
       background-color: rgb(200, 151, 38);
-    }
+    }*/
   
   
     header{
@@ -70,9 +70,9 @@
 
   @media screen and (min-width:912px) and (max-width:1368px){
 
-    body{
+    /*body{
         background-color: black;
-    }
+    }*/
 
     
     header{
@@ -113,7 +113,7 @@
       div.card {
        justify-content: none;
         padding: 15px;
-        width: 120px;
+        width: 140px;
         height:80px;
     }
     
@@ -125,11 +125,11 @@
       }
       
       div#card-encerrar {
-        width: 18em;
+        width: 20em;
       }
     
       h3.card-text{
-        font-size: 19px;
+        font-size: 14px;
       }
     
       
