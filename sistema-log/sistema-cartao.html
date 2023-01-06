@@ -1,0 +1,131 @@
+<?php
+session_start();
+
+include  "../verific.inc";
+
+$logado = $_SESSION['email'];
+
+
+?>
+
+<!DOCTYPE html>
+<html lang="portgues-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style-sistema/sistema-all.css" media="all">
+    <link rel="stylesheet" href="../styles/style-sistema/sistema-ipad.css" media="screen">
+    <link rel="stylesheet" href="../styles/style-sistema/sistema-screen.css" media="screen">
+    <title> stm - cartão MAIS FAMÍLIA</title>
+</head>
+
+<body>
+    <header>
+        <img id="img-logo" src="../img-all/logo-all/logo-sem-fundo.png" alt="logo do cartão MAIS FAMÍLIA">
+
+        <div id="container-log">
+            <a href="encerrar.php">Sair da conta</a>
+            <img id="img-login" src="../img-all/login-img/henrique.png" alt="foto-de-login">
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <div class="container-cards">
+
+            <a class="link-card" href="">
+                <div class="card">
+                    <img class="img-card" src="../img-all/icons-sistema/painel-controle.png" alt="associados bloqueados">
+                    <h3 class="card-text">Painel de controle</h3>
+                </div>
+            </a>
+
+            <a class="link-card" href="">
+                <div class="card">
+                    <img class="img-card" src="../img-all/icons-sistema/bloqueio.png" alt="associados bloqueados">
+                    <h3 class="card-text">Meus associados</h3>
+                </div>
+            </a>
+
+            <a class="link-card" href="">
+                <div class="card">
+                    <img class="img-card" src="../img-all/icons-sistema/bloqueio.png" alt="associados bloqueados">
+                    <h3 class="card-text">Bloqueados</h3>
+                </div>
+            </a>
+
+            <a class="link-card" href="">
+                <div class="card">
+                    <img class="img-card" src="../img-all/icons-sistema/bloqueio.png" alt="associados bloqueados">
+                    <h3 class="card-text">Bloqueados</h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="container-cards">
+            <a class="link-card" href="">
+                <div class="card">
+                    <img class="img-card" src="../img-all/icons-sistema/bloqueio.png" alt="associados bloqueados">
+                    <h3 class="card-text">Bloqueados</h3>
+                </div>
+            </a>
+
+            <a class="link-card" href="">
+                <div class="card">
+                    <img class="img-card" src="../img-all/icons-sistema/bloqueio.png" alt="associados bloqueados">
+                    <h3 class="card-text">Bloqueados</h3>
+                </div>
+            </a>
+
+            <a class="link-card" href="">
+                <div class="card">
+                    <img class="img-card" src="../img-all/icons-sistema/bloqueio.png" alt="associados bloqueados">
+                    <h3 class="card-text">Bloqueados</h3>
+                </div>
+            </a>
+
+            <a class="link-card" href="">
+                <div class="card">
+                    <img class="img-card" src="../img-all/icons-sistema/bloqueio.png" alt="associados bloqueados">
+                    <h3 class="card-text">Bloqueados</h3>
+                </div>
+            </a>
+        </div>
+
+
+        <div class="container-cards">
+            <a class="link-card" href="">
+                <div class="card">
+                    <img class="img-card" src="../img-all/icons-sistema/bloqueio.png" alt="associados bloqueados">
+                    <h3 class="card-text">Bloqueados</h3>
+                </div>
+            </a>
+
+            <a class="link-card" href="">
+                <div class="card">
+                    <img class="img-card" src="../img-all/icons-sistema/bloqueio.png" alt="associados bloqueados">
+                    <h3 class="card-text">Bloqueados</h3>
+                </div>
+            </a>
+
+
+            <a class="link-card" href="">
+                <div class="card" id="card-encerrar">
+                    <img class="img-card" src="../img-all/icons-sistema/login.png" alt="Sair da conta">
+                    <h3 class="card-text">Encerrar sessão</h3>
+                </div>
+            </a>
+        </div>
+    </main>
+
+
+
+
+
+</body>
+
+</html>

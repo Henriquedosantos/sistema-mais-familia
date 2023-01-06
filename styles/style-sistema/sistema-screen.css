@@ -1,0 +1,76 @@
+﻿/* versão para iphone- celular */
+
+@media screen and (min-width: 220px) and (max-width:480px) {
+  body {
+    background-color: rgb(187, 233, 187);
+  }
+
+
+  header {
+    padding: 4px;
+  }
+
+  div#container-log {
+    gap:8px;
+    margin-right: 4%;    
+    padding: 8px;
+  }
+
+  header>div#container-log>img#img-login {
+    height: 25px;
+  }
+
+  header>div#container-log>a {
+    font-size: 10px;
+  }
+
+
+  header>img#img-logo {
+    height: 60px;
+    margin-left: 3%;
+  }
+
+  div.container {
+    gap: 1em;
+    padding: 10px;
+  }
+
+
+  /*MAIN*/
+  div.container-cards{
+    display: flex;
+    gap: 10px;
+    width: 18em;
+
+    background-color: antiquewhite;
+   }
+
+   
+div.card{
+ 
+  padding: 0px;
+  height: 120px;
+  width: 65px;
+}
+
+
+
+div.card > img.img-card{
+  display: block;
+  margin: auto;
+  height:40px;
+  padding-top: 30px;
+}
+
+
+h3.card-text, a.link-card{
+  font-size: 10px;
+  text-align: none;
+
+}
+
+
+div#card-encerrar{
+  width: 14em;
+}
+}
