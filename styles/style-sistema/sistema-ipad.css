@@ -9,6 +9,7 @@
   
     header{
       padding: 10px;
+      margin-bottom: 10%;
     }
   
     header>img#img-logo {
@@ -37,6 +38,7 @@
 
       width: 37em;
 
+   
       
      
     }
