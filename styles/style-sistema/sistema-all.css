@@ -43,6 +43,7 @@ div#container-log {
 
     background-color: aliceblue;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 header>div#container-log>img#img-login {

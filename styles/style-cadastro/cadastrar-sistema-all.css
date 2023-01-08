@@ -1,0 +1,214 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+
+
+:root {
+    ---Font: 'Nunito', sans-serif;
+    ---Cor01: rgb(62, 147, 255);
+    ---Cor03: #034e6bd0;
+    ---Cor04: #036b05df;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+
+
+header {
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-bottom: 2px solid #AEDFF2;
+    margin-bottom: 3em;
+    padding: 3px;
+}
+
+header>img {
+    margin-left: 40px;
+}
+
+
+header>a {
+
+    position: absolute;
+    right: 0;
+
+    margin-right: 45px;
+    font-family: var(---Font);
+    font-weight: bold;
+    font-size: 16px;
+
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+
+    background-color: #8cd8f6;
+    border-radius: 10px;
+    padding: 4px;
+    width: 9em;
+}
+
+header>a:hover {
+    background-color: #94c1d3;
+}
+
+h1 {
+    font-family: var(---Font);
+    font-weight: 400;
+    font-size: 18px;
+
+    margin-bottom: 1em;
+    text-align: center;
+    color: #1BAFBF;
+    text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.492);
+
+}
+
+section {
+    background-color: #edededcc;
+    border-radius: 15px;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 2em;
+
+}
+
+section.form-01,
+section.form-02 {
+    display: flex;
+    flex-direction: column;
+    width: 18em;
+    background-color: transparent;
+}
+
+
+section.form-01>input,
+section.form-02>input {
+    border: none;
+    outline: none;
+    margin-bottom: 1em;
+
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background-color: transparent;
+
+    font-family: var(---Font);
+    font-weight: 400;
+    color: #2BA8D9;
+
+
+}
+
+input::placeholder {
+
+    font-family: var(---Font);
+    font-weight: 200;
+    color: rgba(127, 126, 126, 0.54);
+
+}
+
+label {
+    font-family: var(---Font);
+    color: var(---Cor03);
+    padding-top: 10px;
+    text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.492);
+
+}
+
+select {
+
+    border: none;
+    outline: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    font-family: var(---Font);
+    font-weight: 400;
+    color: #2BA8D9;
+
+
+    border-radius: 8px;
+    padding: 5px;
+    cursor: pointer;
+
+}
+
+
+
+select>option {
+
+    font-family: var(---Font);
+    font-weight: 400;
+    color: #2BA8D9;
+
+    border: none;
+    outline: none;
+    padding: 20px;
+}
+
+
+
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+
+
+}
+
+
+#c_foto {
+    display: none;
+
+}
+
+#ft-label {
+
+    height: 25px;
+    cursor: pointer;
+    margin-bottom: 12px;
+}
+
+
+
+input#submits,
+input#limpar {
+
+    font-family: var(---Font);
+    font-weight: bold;
+
+
+    cursor: pointer;
+    border: none;
+    padding: 5px;
+
+    margin: auto;
+    margin-bottom: 10px;
+    width: 22em;
+
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: #2BA8D9;
+}
+
+
+input#submits:hover {
+    background-color: #0ccb4b;
+    ;
+    color: #fff;
+}
+
+input#limpar:hover {
+    background-color: brown;
+    color: #fff;
+}
+
+/*CADASTRO DOS DEPENDENTES*/
+
+
+

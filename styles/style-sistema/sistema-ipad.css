@@ -1,9 +1,9 @@
 
 
 @media screen and (min-width:711px) and (max-width:1170px){
-   /* body {
-      background-color: rgb(200, 151, 38);
-    }*/
+    body {
+      background-color: green;
+    }
   
   
     header{
@@ -70,9 +70,9 @@
 
   @media screen and (min-width:912px) and (max-width:1368px){
 
-    /*body{
+    body{
         background-color: black;
-    }*/
+    }
 
     
     header{

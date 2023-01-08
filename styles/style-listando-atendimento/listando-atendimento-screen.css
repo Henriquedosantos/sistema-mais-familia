@@ -1,0 +1,39 @@
+@media screen and (min-width: 120px) and (max-width: 1116px) {
+
+   
+table{
+    display: none;
+}
+   
+
+h2.msg, h3.msg{
+    display: block;
+}
+
+ h2,h3{
+    display: none;
+ }
+
+ h2.msg{
+    font-size: 25px;
+ }
+
+ h3.msg{
+    font-size: 13px;
+    text-align: justify;
+    margin-bottom: 0px;
+ }
+
+ div#container_link > a {
+    font-size: 12px;
+    width: 100%;
+   
+}
+
+div#container_link {
+    margin-top: 1em;
+    padding: 5px;
+}
+
+ 
+}
