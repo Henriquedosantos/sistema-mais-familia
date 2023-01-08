@@ -81,9 +81,15 @@ input#limpar {
 }
 .container_dependentes{
   height: 42em;
+
 }
 
 .input_dependentes{
   margin-top: 10em;
+}
+
+section.section_dependentes {
+  height: 39em;
+
 }
 }
