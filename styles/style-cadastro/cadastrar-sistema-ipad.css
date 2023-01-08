@@ -1,8 +1,8 @@
-@media screen and (min-width:711px) and (max-width:1170px) {
+@media screen and (min-width:711px) and (max-width:900px) {
  
- /*body {
+ body {
     background-color: orange;
-  }*/
+  }
 
   h1 {
     display: block;
@@ -41,7 +41,7 @@
 }
 
 section.section_dependentes {
-  height: auto;
+  height: 40em;
 
 }
 
@@ -59,42 +59,7 @@ section.section_dependentes {
   }
 
 
-  section {
-    width: 60%;
-    height: auto;
-    font-size: 13px;
-  
+
+ 
 }
 
-
-select>option {
-  font-size: 14px;
-}
-
-
-
-form{
-  margin: auto;
-}
-
-input#submits,
-input#limpar {
-  font-size: 13px;
-  width: 15em;
-
-
-}
-.container_dependentes{
-  height: 42em;
-
-}
-
-.input_dependentes{
-  margin-top: 10em;
-}
-
-section.section_dependentes {
-  height: 39em;
-
-}
-}
