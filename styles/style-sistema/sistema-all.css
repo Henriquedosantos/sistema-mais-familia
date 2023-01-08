@@ -89,9 +89,9 @@ main{
     padding: 5px;
     border-radius: 10px;
     background-color:#AEDFF2;
-    width: 60em;
+    width: auto;
 
-    padding: 9px;
+    padding: 4px;
     position: absolute;
     top: 50%;
     left: 50%;
