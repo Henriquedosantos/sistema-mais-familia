@@ -31,6 +31,7 @@ $logado = $_SESSION['email'];
     </header>
 
     <?php echo "<h1>Cadastramento feito por: {$logado}</h1>" ?>
+    <h1 id = "msg"> O cadastramento não esta disponivel em modo de smartphone</h1>
 
 
 
@@ -39,10 +40,12 @@ $logado = $_SESSION['email'];
 
             <section class="form-01">
                 <label for="c_carteirinha">Nº da proposta</label>
-                <input type="text" name="c_carteirinha" id="c_carteirinha" required placeholder="(xxxx.xxxx.xx.xxxx)" maxlength="17">
+                <input type="text" name="c_carteirinha" id="c_carteirinha" required placeholder="(xxxx.xxxx.xx.xxxx)"
+                    maxlength="17">
 
                 <label for="c_nometitular">Nome completo do titular:</label>
-                <input type="text" name="c_nometitular" id="c_nometitular" required placeholder="Paulo Henrique dos Santos">
+                <input type="text" name="c_nometitular" id="c_nometitular" required
+                    placeholder="Paulo Henrique dos Santos">
 
                 <label for="c_datanascimento">Data de nascimento:</label>
                 <input type="date" name="c_datanascimento" id="c_datanascimento" max="2030-12-30">
@@ -54,7 +57,7 @@ $logado = $_SESSION['email'];
                 <input type="text" name="c_cpf" id="c_cpf" required placeholder="(xxx.xxx.xxx-xx)" maxlength="14">
 
                 <label for="c_contato">Número para contato:</label>
-                <input type="tel" name="c_contato" id="c_contato" required placeholder="(xx) xxxx-xxxx">
+                <input type="tel" name="c_contato" id="c_contato" required placeholder="(xx) xxxx-xxxx" maxlength="13">
 
                 <label for="c_rua">Rua:</label>
                 <input type="text" name="c_rua" id="c_rua" required placeholder="Rua Aline 45º">
@@ -65,10 +68,10 @@ $logado = $_SESSION['email'];
             <section class="form-02">
 
                 <label for="a">Bairro:</label>
-                <input type="text" name="" id="" required placeholder="">
+                <input type="text" name="" id="" required placeholder="Laranjal">
 
                 <label for="a">CEP:</label>
-                <input type="text" name="" id="" required placeholder="">
+                <input type="text" name="" id="" required placeholder="xxxxx-xxx">
 
                 <label for="c_cidades">Cidade atual:</label>
                 <select name="c_cidades" id="c_cidades">
@@ -78,7 +81,7 @@ $logado = $_SESSION['email'];
                     <option value="Praia Grande">Praia Grande</option>
                     <option value="Mongauguá">Mongauguá</option>
                     <option value="Santos">Santos</option>
-                    <option value="Santos">Cubatão</option>
+                    <option value="Cubatão">Cubatão</option>
 
                 </select>
 
@@ -106,10 +109,21 @@ $logado = $_SESSION['email'];
                 <input type="file" name="c_foto" id="c_foto">
 
                 <input type="submit" id="submits" name="submit" value="Cadastrar associado">
-                <select name="" id="">Venda
-                    <option value="Pix">Pix</option>
-                    <option value="Cartão de crédito">Crédito</option>
-                    <option value="À vista">À vista</option>
+
+                <select name="" id="">
+
+                    <option value="">Modo de adesão</option>
+
+                    <optgroup label="Pix / á vista">
+                        <option value="330">R$ 300,00 + taxa</option>
+                        <option value="390">R$ 360,00 + taxa</option>
+                    </optgroup>
+
+                    <optgroup label="Cartão de crédito">
+                        <option value="29.90">R$ 29,90 / taxa pix</option>
+                        <option value="32.40">R$ 32,40 / taxa incluso</option>
+                    </optgroup>
+
                 </select>
 
             </section>
@@ -132,31 +146,31 @@ $logado = $_SESSION['email'];
 
     <section class="container_dependentes">
 
-        <div class="container_form">
-            <form method="POST" action="cadastrando-dependentes.php">
 
-                <section class="section_dependentes_nome">
+            <form  method="POST" action="cadastrando-dependentes.php" >
 
-                    <label for="nome_dp01">1º dependente:</label>
+                <section class="section_dependentes">
+
+                    <label for="nome_dp01">1º Dependente:</label>
                     <input type="text" name="nome_dp01" id="nome_dp01">
 
-                    <label for="nome_dp02"> 2º dependente:</label>
+                    <label for="nome_dp02"> 2º Dependente:</label>
                     <input type="text" name="nome_dp02" id="nome_dp02">
 
-                    <label for="nome_dp03">3º dependente:</label>
+                    <label for="nome_dp03">3º Dependente:</label>
                     <input type="text" name="nome_dp03" id="nome_dp03">
 
-                    <label for="nome_dp04">4º dependente:</label>
+                    <label for="nome_dp04">4º Dependente:</label>
                     <input type="text" name="nome_dp04" id="nome_dp04">
 
-                    <label for="nome_dp05"> 5º dependente:</label>
+                    <label for="nome_dp05"> 5º Dependente:</label>
                     <input type="text" name="nome_dp05" id="nome_dp05">
 
-                    <label for="nome_dp06"> 6º dependente:</label>
+                    <label for="nome_dp06"> 6º Dependente:</label>
                     <input type="text" name="nome_dp06" id="nome_dp06">
 
 
-                    <label for="nome_dp07"> 7º dependente:</label>
+                    <label for="nome_dp07"> 7º Dependente:</label>
                     <input type="text" name="nome_dp07" id="nome_dp07">
 
 
@@ -164,37 +178,36 @@ $logado = $_SESSION['email'];
                 </section>
 
 
-                <section class="section_dependentes_nome">
+                <section class="section_dependentes">
 
-                    <label for="nascimento_dp1">data de nascimento:</label>
+                    <label for="nascimento_dp1">Data de nascimento:</label>
                     <input type="date" name="nascimento_dp1" id="nascimento_dp1" max="2030-12-30">
 
-                    <label for="nascimento_dp2">data de nascimento:</label>
+                    <label for="nascimento_dp2">Data de nascimento:</label>
                     <input type="date" name="nascimento_dp2" id="nascimento_dp2" max="2030-12-30">
 
-                    <label for="nascimento_dp3">data de nascimento:</label>
+                    <label for="nascimento_dp3">Data de nascimento:</label>
                     <input type="date" name="nascimento_dp3" id="nascimento_dp3" max="2030-12-30">
 
-                    <label for="nascimento_dp4">data de nascimento:</label>
+                    <label for="nascimento_dp4">Data de nascimento:</label>
                     <input type="date" name="nascimento_dp4" id="nascimento_dp4" max="2030-12-30">
 
-                    <label for="nascimento_dp5">data de nascimento:</label>
+                    <label for="nascimento_dp5">Data de nascimento:</label>
                     <input type="date" name="nascimento_dp5" id="nascimento_dp5" max="2030-12-30">
 
 
-                    <label for="nascimento_dp6">data de nascimento:</label>
+                    <label for="nascimento_dp6">Data de nascimento:</label>
                     <input type="date" name="nascimento_dp6" id="nascimento_dp6" max="2030-12-30">
 
 
-                    <label for="nascimento_dp7">data de nascimento:</label>
+                    <label for="nascimento_dp7">Data de nascimento:</label>
                     <input type="date" name="nascimento_dp7" id="nascimento_dp7" max="2030-12-30">
-
-
+                    <input class="input_dependentes" type="submit" value="Cadastrar dependentes">
                 </section>
-        </div>
-        <input class = "input_dependentes" type="submit" value="Cadastrar">
 
         </form>
+
+
 
 
     </section>

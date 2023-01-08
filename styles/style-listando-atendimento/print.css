@@ -4,18 +4,34 @@
 *{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-table.table{
- 
-   width: 80em;
+
+img#logo{
+    height: 80px;
+    margin-left: 1em;
+}
+
+main{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-120%);
  
 }
+
+
+table.table{
+
+    width: 45em;
+ 
+ }
+ 
 
 h3,div#container_link{
     display:none;
 }
 
 td{
-    font-size: 14px;
+    font-size: 12px;
 }
 
 h2{

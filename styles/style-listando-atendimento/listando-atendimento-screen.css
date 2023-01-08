@@ -6,8 +6,20 @@ table{
 }
    
 
+img#logo{
+    height: 65px;
+    margin-left: 1em;
+}
+
 h2.msg, h3.msg{
     display: block;
+}
+
+main{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-72%);
 }
 
  h2,h3{

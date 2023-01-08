@@ -15,7 +15,9 @@
     text-decoration: none;
 }
 
-
+body{
+    background-color: aliceblue;
+}
 
 header {
 
@@ -46,14 +48,14 @@ header>a {
     text-decoration: none;
     color: #fff;
 
-    background-color: #8cd8f6;
+    background-color: #24c0fd;
     border-radius: 10px;
     padding: 4px;
     width: 9em;
 }
 
 header>a:hover {
-    background-color: #94c1d3;
+    background-color: #1fa2d6;
 }
 
 h1 {
@@ -68,10 +70,15 @@ h1 {
 
 }
 
+h1#msg {
+    display: none;
+}
+
 section {
-    background-color: #edededcc;
+    background-color: #68bfe2;
     border-radius: 15px;
-    width: 60%;
+    width: 80%;
+    
     margin: auto;
     margin-bottom: 2em;
 
@@ -81,8 +88,9 @@ section.form-01,
 section.form-02 {
     display: flex;
     flex-direction: column;
-    width: 18em;
-    background-color: transparent;
+    width: 20em;
+   
+    
 }
 
 
@@ -92,12 +100,12 @@ section.form-02>input {
     outline: none;
     margin-bottom: 1em;
 
-    border-bottom: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(255, 255, 255);
     background-color: transparent;
 
     font-family: var(---Font);
     font-weight: 400;
-    color: #2BA8D9;
+    color: #ffffff;
 
 
 }
@@ -106,14 +114,14 @@ input::placeholder {
 
     font-family: var(---Font);
     font-weight: 200;
-    color: rgba(127, 126, 126, 0.54);
+    color: rgba(255, 255, 255, 0.886);
 
 }
 
 label {
     font-family: var(---Font);
-    color: var(---Cor03);
-    padding-top: 10px;
+    color: #ffff;
+    padding-top: 15px;
     text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.492);
 
 }
@@ -133,6 +141,7 @@ select {
     border-radius: 8px;
     padding: 5px;
     cursor: pointer;
+    border-radius: 20px;
 
 }
 
@@ -141,8 +150,8 @@ select {
 select>option {
 
     font-family: var(---Font);
-    font-weight: 400;
-    color: #2BA8D9;
+    font-weight: bold;
+    color: #289ac8;
 
     border: none;
     outline: none;
@@ -157,6 +166,7 @@ form {
     justify-content: center;
     align-items: center;
     padding: 14px;
+    margin: auto;
 
 
 }
@@ -176,6 +186,7 @@ form {
 
 
 
+
 input#submits,
 input#limpar {
 
@@ -189,7 +200,7 @@ input#limpar {
 
     margin: auto;
     margin-bottom: 10px;
-    width: 22em;
+    width: 100%;
 
     border-radius: 20px;
     background-color: #ffffff;
@@ -197,9 +208,8 @@ input#limpar {
 }
 
 
-input#submits:hover {
+input#submits:hover, input.input_dependentes:hover {
     background-color: #0ccb4b;
-    ;
     color: #fff;
 }
 
@@ -211,4 +221,47 @@ input#limpar:hover {
 /*CADASTRO DOS DEPENDENTES*/
 
 
+
+section.section_dependentes{
+    display: flex;
+    flex-direction: column;
+
+    width: 20em;
+    height: 34em;
+    padding: 10px;
+    border-radius: 0px;
+    background-color: transparent;
+
+   
+}
+
+.section_dependentes > input{ 
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    background-color: transparent;
+
+    font-family: var(---Font);
+    font-weight: 400;
+    color: #ffffff;
+    padding-top: 8px;
+    padding-bottom: 10px;
+   
+}
+
+
+
+input.input_dependentes{
+    font-family: var(---Font);
+    font-weight: bold;
+
+    cursor: pointer;
+    border: none;
+    padding: 8px;
+    border-radius: 20px;
+
+    background-color: #ffff;
+    color: #2BA8D9;
+    margin-top: 2em;
+}
 

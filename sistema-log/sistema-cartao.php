@@ -18,7 +18,6 @@ $logado = $_SESSION['email'];
     <link rel="stylesheet" href="../styles/style-sistema/sistema-all.css" media="all">
     <link rel="stylesheet" href="../styles/style-sistema/sistema-ipad.css" media="screen">
     <link rel="stylesheet" href="../styles/style-sistema/sistema-screen.css" media="screen">
-    <link rel="shortcut icon" href="../img-all/favicon/favicon.ico" type="image/x-icon">
     <title> CAM - cartão MAIS FAMÍLIA</title>
 </head>
 
@@ -28,7 +27,26 @@ $logado = $_SESSION['email'];
 
         <div id="container-log">
             <a href="encerrar.php">Sair da conta</a>
-            <img id="img-login" src="../img-all/login-img/p.png" alt="foto-de-login">
+
+            <?php  
+
+                if($logado == "henrique.santos@gmail.com"){
+                    echo '<img id="img-login" src="../img-all/login-img/henrique.png" alt="foto-de-login">';
+                
+                }else if($logado == "fernandosilva.pr@hotmail.com"){
+                    echo '<img id="img-login" src="../img-all/login-img/f.png" alt="foto-de-login">';
+                }else if($logado == "ps_moutinho21@hotmail.com"){
+                    echo '<img id="img-login" src="../img-all/login-img/p.png" alt="foto-de-login">';
+                }else{
+                    unset($logado);
+                    header("Location: ../sistema-log/login.php");
+                    die();
+                }
+        
+            ?>
+        
+        
+        
         </div>
 
     </header>

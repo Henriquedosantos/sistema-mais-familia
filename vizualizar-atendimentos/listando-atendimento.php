@@ -10,16 +10,19 @@
     <link rel="stylesheet" href="../styles/style-listando-atendimento/listando-atendimento-all.css" media="all">
     <link rel="stylesheet" href="../styles/style-listando-atendimento/listando-atendimento-screen.css" media="screen">
     <link rel="stylesheet" href="../styles/style-listando-atendimento/print.css" type="text/css" media="print">
-    <title>Listando registros</title>
+    <title>Controle de atendimento</title>
 </head>
 
 <body>
+    <header>
+        <img id = "logo" src="../img-all/logo-all/logo-sem-fundo.png" alt="Logo do cartão MAIS FAMILIA">
+    </header>
 
     <main>
 
 
         <h2>
-            Registros de atendimento de hoje
+            Registros do atendimento de hoje
         </h2>
 
 
@@ -63,7 +66,7 @@
                         echo "<td>{$registers[1]}</td>";
                         echo "<td>{$registers[2]}</td>";
                         echo "<td>{$registers[3]}</td>";
-                        echo "<td>{$registers[4]}</td>";
+                        echo "<td>".date('d/m/Y',strtotime($registers[4]))."</td>";
                         echo "<td>{$registers[5]}</td>";
                         echo "<td>{$registers[6]}</td>";
                         echo "<td>{$registers[7]}</td>";

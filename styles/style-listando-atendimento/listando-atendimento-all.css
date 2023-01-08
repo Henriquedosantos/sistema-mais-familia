@@ -15,12 +15,21 @@
     text-decoration: none;
 }
 
-
 body{
     height: 100vh;
     margin: auto;
     background-color: #f2eeee;
 }
+
+header{
+    padding: 10px;
+}
+
+img#logo{
+    height: 80px;
+    margin-left: 2em;
+}
+
 
 table.table{
     margin: auto;
@@ -34,9 +43,10 @@ tr:nth-child(even) {
   }
 
 main{
+    margin-top: 2em;
     position: absolute;
     left: 50%;
-    top:50%;
+    top: 50%;
     transform: translate(-50%,-50%);
 }
 
@@ -62,7 +72,7 @@ h3{
     font-size: 15px;
     color: #2694BF;
     
-    margin-bottom: 4em;
+    margin-bottom: 2em;
 }
 div#container_link{
     display: flex;

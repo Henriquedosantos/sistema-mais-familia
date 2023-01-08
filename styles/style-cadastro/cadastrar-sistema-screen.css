@@ -3,9 +3,34 @@
 /* versão para iphone- celular */
 
 
-@media screen and (min-width: 120px) and (max-width: 870px) {
+@media screen and (min-width: 120px) and (max-width: 711px) {
 
-  
+    body{
+        background-color: transparent;
+    }
+    header>img {
+        margin-left: 10px;
+        height: 52px;
+    }
+
+    header>a {
+        font-size: 15px;
+        width: 4em;
+    }
+
+    section{
+        display: none;
+    }
+
+    h1{
+        display: none;
+    }
+
+    h1#msg{
+        text-align: center;
+        display: block;
+        font-weight: bold;
+    }
 
 
 }

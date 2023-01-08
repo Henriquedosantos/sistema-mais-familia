@@ -5,7 +5,7 @@ if ((!isset($_SESSION['email']) == TRUE) && (!isset($_SESSION['senha']) == TRUE)
 
 
     //echo "não existe";
-    header("Location: login.php");
+    header("Location: ../sistema-log/login.php");
 
 }
 
