@@ -56,15 +56,34 @@
 
   section {
     width: 60%;
+    height: auto;
+    font-size: 13px;
   
 }
+
+
+select>option {
+  font-size: 14px;
+}
+
+
 
 form{
   margin: auto;
 }
 
+input#submits,
+input#limpar {
+  font-size: 13px;
+  width: 15em;
 
 
+}
+.container_dependentes{
+  height: 42em;
+}
 
-
+.input_dependentes{
+  margin-top: 10em;
+}
 }
