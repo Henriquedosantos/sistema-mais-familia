@@ -41,9 +41,14 @@
 }
 
 section.section_dependentes {
-  height: 40em;
+  height: 32em;
 
 }
+
+section.section_dependentes > input{
+  width: 14em;
+}
+
 
  
 
@@ -55,7 +60,7 @@ section.section_dependentes {
 @media screen and (min-width:912px) and (max-width:1368px) {
 
  body {
-    background-color: rgb(211, 95, 95);
+    background-color: rgb(31, 12, 12);
   }
 
 
