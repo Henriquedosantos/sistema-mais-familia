@@ -32,18 +32,19 @@
       display: flex;
       flex-direction: column;
       width: auto;
-      padding: 8px;
+      padding: 5px;
      
     }
 
     div.container-cards {
         width: auto; 
+        padding: 5px;
     
     }
   
     div.card {
-     justify-content: none;
-      padding: 10px;
+      justify-content: none;
+      padding: 5px;
       width: 120px;
       height:80px;
   }
@@ -60,7 +61,7 @@
     }
   
     h3.card-text{
-      font-size: 15px;
+      font-size: 12px;
     }
   
     
