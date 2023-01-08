@@ -9,14 +9,16 @@
         background-color: transparent;
     }
     header>img {
-        margin-left: 10px;
-        height: 52px;
+        margin-left: 16px;
+        height: 65px;
     }
 
     header>a {
-        font-size: 15px;
-        width: 4em;
+        font-size: 16px;
+        width: 5em;
+        margin-right: 28px;
     }
+    
 
     section{
         display: none;
