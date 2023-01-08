@@ -1,6 +1,6 @@
 ﻿/* versão para iphone- celular */
 
-@media screen and (min-width: 220px) and (max-width:708px) {
+@media screen and (min-width: 220px) and (max-width:711px) {
   /*body {
     background-color: rgb(127, 228, 127);
   }*/
@@ -46,6 +46,11 @@
 
   main {
     padding: 9px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 20em;
   }
 
 

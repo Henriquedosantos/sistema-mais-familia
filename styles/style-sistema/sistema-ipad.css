@@ -1,6 +1,7 @@
 
+/*VERSÃO PARA IPAD*/
 
-@media screen and (min-width:711px) and (max-width:1170px){
+@media screen and (min-width:711px) and (max-width:1116px){
     body {
       background-color: green;
     }
@@ -33,6 +34,10 @@
       flex-direction: column;
       width: auto;
       padding: 5px;
+
+      width: 37em;
+
+      
      
     }
 
@@ -69,71 +74,3 @@
   }
 
 
-  @media screen and (min-width:912px) and (max-width:1368px){
-
-    body{
-        background-color: black;
-    }
-
-    
-    header{
-        padding: 0px;
-      }
-    
-      header>img#img-logo {
-        height: 100px;
-        margin-left: 3%;
-      }
-    
-      header>div#container-log{
-        margin-right: 4%;
-        padding: 14px;
-      }
-    
-      header>div#container-log>img#img-login {
-        height: 40px;
-      }
-    
-      header>div#container-log>a {
-        font-size:19px;
-      }
-    
-      main{
-        display: flex;
-        flex-direction: column;
-        width: auto;
-        padding: 10px;
-       
-      }
-  
-      div.container-cards {
-          width: auto; 
-      
-      }
-    
-      div.card {
-       justify-content: none;
-        padding: 15px;
-        width: 140px;
-        height:80px;
-    }
-    
-      
-      
-      div.card>img.img-card {
-        height: 60px;
-        padding-top: 0px;
-      }
-      
-      div#card-encerrar {
-        width: 20em;
-      }
-    
-      h3.card-text{
-        font-size: 14px;
-      }
-    
-      
-    
-
-  }
