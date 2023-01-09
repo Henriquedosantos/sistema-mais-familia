@@ -63,10 +63,11 @@ header>a:hover {
 h1,h1#msg{
 
     font-family: var(---Font);
-    font-weight: 500;
+    font-weight: bold;
     font-size: 20px;
     color: #24c0fd;
     text-align: center;
+    margin-bottom: 1em;
 
 }
 
@@ -88,13 +89,15 @@ main{
 
 form{
     display: flex;
+    align-items: center;
     justify-content: center;
-    gap: 1em;
+    gap: 4em;
 
     background-color: #ffffff;
     border-radius: 10px;
-    padding: 20px;
+    padding: 30px;
     width: 40em;
+    margin-bottom: 1em;
 }
 
 
@@ -125,7 +128,7 @@ label{
 }
 
 input::placeholder{
-    color: #ffff;
+    color: rgb(188, 186, 186);
 }
 
 #c_foto{
@@ -136,7 +139,7 @@ input::placeholder{
 /*FORMULARIO DOS DEPENDENTES*/
 
 
-#input_titular, .input_dependentes{
+#input_titular, .input_dependentes ,#input_limpar{
     background-color: #24c0fd;
 
     font-family: var(---Font);
@@ -150,6 +153,10 @@ input::placeholder{
     color: #ffff;
 }
 
+#input_limpar:hover{
+    background-color: brown;
+}
+
 #input_titular:hover,  .input_dependentes:hover{
     background-color: rgb(20, 203, 39);
 }
@@ -158,4 +165,5 @@ select{
     border: 1px solid #24c0fd;;
     outline: none;
     padding: 1px;
+    margin-top: 1em;
 }

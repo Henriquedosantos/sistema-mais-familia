@@ -173,7 +173,7 @@ $logado = $_SESSION['email'];
 
                     <label for="nome_dp07"> 7º Dependente:</label>
                     <input type="text" name="nome_dp07" id="nome_dp07">
-            
+                    <input type="reset" id = "input_limpar"  value="Limpar dados">
 
                 </div>
 
