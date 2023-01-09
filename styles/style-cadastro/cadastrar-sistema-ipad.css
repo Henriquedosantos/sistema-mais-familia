@@ -4,51 +4,6 @@
     background-color: orange;
   }
 
-  h1 {
-    display: block;
-  }
-
-  h1#msg {
-    display: none;
-  }
-
-  input {
-    width: 14em;
-  }
-
-  select {
-    width: 14em;
-    font-size: 14px;
-  }
-
-  select>option {
-    font-size: 14px;
-  }
-
-
-  input#submits,
-  input#limpar {
-    margin-left: 0em;
-    width: 14em;
-    font-size: 14px;
-  }
-
-  form {
-    width: 80%;
-  }
-  section {
-    width: 76%;
-}
-
-section.section_dependentes {
-  height: 32em;
-
-}
-
-section.section_dependentes > input{
-  width: 14em;
-}
-
 
  
 
