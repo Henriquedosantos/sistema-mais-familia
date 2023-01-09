@@ -58,210 +58,104 @@ header>a:hover {
     background-color: #1fa2d6;
 }
 
-h1 {
-    font-family: var(---Font);
-    font-weight: 400;
-    font-size: 18px;
+/*h1s*/
 
-    margin-bottom: 1em;
+h1,h1#msg{
+
+    font-family: var(---Font);
+    font-weight: 500;
+    font-size: 20px;
+    color: #24c0fd;
     text-align: center;
-    color: #1BAFBF;
-    text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.492);
 
 }
 
-h1#msg {
+h1#msg{
     display: none;
 }
 
-section {
-    background-color: #68bfe2;
-    border-radius: 15px;
-    width: 80%;
-    
-    margin: auto;
-    margin-bottom: 2em;
+/*FORMULARIOS TITULAR*/
 
-}
-
-section.form-01,
-section.form-02 {
+main{
     display: flex;
     flex-direction: column;
-    width: 20em;
-   
-    
-}
-
-
-section.form-01>input,
-section.form-02>input {
-    border: none;
-    outline: none;
-    margin-bottom: 1em;
-
-    border-bottom: 1px solid rgb(255, 255, 255);
-    background-color: transparent;
-
-    font-family: var(---Font);
-    font-weight: 400;
-    color: #ffffff;
-
-
-}
-
-input::placeholder {
-
-    font-family: var(---Font);
-    font-weight: 200;
-    color: rgba(255, 255, 255, 0.886);
-
-}
-
-label {
-    font-family: var(---Font);
-    color: #ffff;
-    padding-top: 15px;
-    text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.492);
-
-}
-
-select {
-
-    border: none;
-    outline: none;
-    margin-top: 5px;
-    margin-bottom: 5px;
-
-    font-family: var(---Font);
-    font-weight: 400;
-    color: #2BA8D9;
-
-
-    border-radius: 8px;
-    padding: 5px;
-    cursor: pointer;
-    border-radius: 20px;
-
-}
-
-
-
-select>option {
-
-    font-family: var(---Font);
-    font-weight: bold;
-    color: #289ac8;
-
-    border: none;
-    outline: none;
-    padding: 20px;
-}
-
-
-
-
-form {
-    display: flex;
     justify-content: center;
     align-items: center;
-    padding: 14px;
-    margin: auto;
 
-
+    background-color: rgba(0, 255, 255, 0);
+    padding: 10px;
 }
 
+form{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
 
-#c_foto {
-    display: none;
-
-}
-
-#ft-label {
-
-    height: 25px;
-    cursor: pointer;
-    margin-bottom: 12px;
-}
-
-
-
-
-input#submits,
-input#limpar {
-
-    font-family: var(---Font);
-    font-weight: bold;
-
-
-    cursor: pointer;
-    border: none;
-    padding: 5px;
-
-    margin: auto;
-    margin-bottom: 10px;
-    width: 100%;
-
-    border-radius: 20px;
     background-color: #ffffff;
-    color: #2BA8D9;
+    border-radius: 10px;
+    padding: 20px;
+    width: 40em;
 }
 
 
-input#submits:hover, input.input_dependentes:hover {
-    background-color: #0ccb4b;
-    color: #fff;
-}
-
-input#limpar:hover {
-    background-color: brown;
-    color: #fff;
-}
-
-/*CADASTRO DOS DEPENDENTES*/
-
-
-
-section.section_dependentes{
+div#form-titular-01,div#form-titular-02,div#form-nome-dep,div#form-nascimento{
     display: flex;
     flex-direction: column;
-
     width: 20em;
-    height: 34em;
-    padding: 10px;
-    border-radius: 0px;
-    background-color: transparent;
 
-   
+    /*TODOS OS FORMULARIOS*/
 }
 
-.section_dependentes > input{ 
-    border: none;
-    outline: none;
-    border-bottom: 1px solid rgb(255, 255, 255);
-    background-color: transparent;
-
+label{
     font-family: var(---Font);
     font-weight: 400;
-    color: #ffffff;
-    padding-top: 8px;
-    padding-bottom: 10px;
+    color: #24c0fd;
+    margin-top: 10px;
+}
+
+ input{
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid #24c0fd;
+    outline-color: #20a5d9;
+    padding: 5px;
+    font-weight: 600;
+    color: #081014;
    
 }
 
+input::placeholder{
+    color: #ffff;
+}
+
+#c_foto{
+    display: none;
+}
 
 
-input.input_dependentes{
+/*FORMULARIO DOS DEPENDENTES*/
+
+
+#input_titular, .input_dependentes{
+    background-color: #24c0fd;
+
     font-family: var(---Font);
     font-weight: bold;
 
-    cursor: pointer;
+    border-radius: 10px;
     border: none;
-    padding: 8px;
-    border-radius: 20px;
-
-    background-color: #ffff;
-    color: #2BA8D9;
-    margin-top: 2em;
+    margin-top: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+    color: #ffff;
 }
 
+#input_titular:hover,  .input_dependentes:hover{
+    background-color: rgb(20, 203, 39);
+}
+
+select{    
+    border: 1px solid #24c0fd;;
+    outline: none;
+    padding: 1px;
+}

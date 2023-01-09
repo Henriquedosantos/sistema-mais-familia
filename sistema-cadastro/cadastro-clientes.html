@@ -31,17 +31,18 @@ $logado = $_SESSION['email'];
     </header>
 
     <?php echo "<h1>Cadastramento feito por: {$logado}</h1>" ?>
-    <h1 id = "msg"> O cadastramento não esta disponivel.</h1>
+    <h1 id="msg"> O cadastramento não esta disponivel.</h1>
 
 
 
-    <section>
+    <main>
         <form method="POST" action="cadastrando-clientes.php" enctype="multipart/form-data">
 
-            <section class="form-01">
+            <div id="form-titular-01">
+
+
                 <label for="c_carteirinha">Nº da proposta</label>
-                <input type="text" name="c_carteirinha" id="c_carteirinha" required placeholder="(xxxx.xxxx.xx.xxxx)"
-                    maxlength="17">
+                <input type="text" name="c_carteirinha" id="c_carteirinha" required placeholder="(xxxx.xxxx.xx.xxxx)" maxlength="17">
 
                 <label for="c_nometitular">Nome completo do titular:</label>
                 <input type="text" name="c_nometitular" id="c_nometitular" required
@@ -62,10 +63,11 @@ $logado = $_SESSION['email'];
                 <label for="c_rua">Rua:</label>
                 <input type="text" name="c_rua" id="c_rua" required placeholder="Rua Aline 45º">
 
-            </section>
+            </div>
 
 
-            <section class="form-02">
+
+            <div id="form-titular-02">
 
                 <label for="a">Bairro:</label>
                 <input type="text" name="" id="" required placeholder="Laranjal">
@@ -93,7 +95,7 @@ $logado = $_SESSION['email'];
 
 
                 <label for="c_foto">
-                    <div class="container_resp"><img id="ft-label" src="../img-all/icons-all/visu-img.png">
+                    <div class="container_resp"><img id="ft-label" src="../img-all/icons-all/visu-img.png" height="25px">
                         <?php
                         //session_start();
 
@@ -104,15 +106,9 @@ $logado = $_SESSION['email'];
                         }
                         ?>
                     </div>
-
                 </label>
-                <input type="file" name="c_foto" id="c_foto">
 
-                <input type="submit" id="submits" name="submit" value="Cadastrar associado">
-
-                <select name="" id="">
-
-                    <option value="">Modo de adesão</option>
+                <select name="" id="" label="Modo de adesão">
 
                     <optgroup label="Pix / á vista">
                         <option value="330">R$ 300,00 + taxa</option>
@@ -126,31 +122,36 @@ $logado = $_SESSION['email'];
 
                 </select>
 
-            </section>
+
+                <input type="file" name="c_foto" id="c_foto">
+                <input type="submit" id = "input_titular" name="submit" value="Cadastrar associado">
+
+            </div>
+
+
+
 
         </form>
 
-    </section>
 
 
-    <!---CADASTRANDO DEPENDENTES--->
-    <?php
+        <!---CADASTRANDO DEPENDENTES--->
+        <?php
 
-    if (isset($_SESSION['carteirinha'])) {
-        echo " <h1 id='text-dependentes'>Titular atual: {$_SESSION['nome_titular']}</h1>";
-    } else {
-        echo " <h1 id='text-dependentes'>Cadastre os dependentes, todos os campos são opcionais</h1>";
-    }
+            if (isset($_SESSION['carteirinha'])) {
+                echo " <h1 id='text-dependentes'>Titular atual: {$_SESSION['nome_titular']}</h1>";
+            } else {
+                echo " <h1 id='text-dependentes'>Cadastre os dependentes, todos os campos são opcionais</h1>";
+            }
 
-    ?>
-
-    <section class="container_dependentes">
+        ?>
 
 
-            <form  method="POST" action="cadastrando-dependentes.php" >
+        <div class="formularios_dependentes">
 
-                <section class="section_dependentes">
+            <form method="POST" action="cadastrando-dependentes.php">
 
+                <div id="form-nome-dep">
                     <label for="nome_dp01">1º Dependente:</label>
                     <input type="text" name="nome_dp01" id="nome_dp01">
 
@@ -172,13 +173,11 @@ $logado = $_SESSION['email'];
 
                     <label for="nome_dp07"> 7º Dependente:</label>
                     <input type="text" name="nome_dp07" id="nome_dp07">
+            
 
+                </div>
 
-
-                </section>
-
-
-                <section class="section_dependentes">
+                <div id="form-nascimento">
 
                     <label for="nascimento_dp1">Data de nascimento:</label>
                     <input type="date" name="nascimento_dp1" id="nascimento_dp1" max="2030-12-30">
@@ -203,14 +202,13 @@ $logado = $_SESSION['email'];
                     <label for="nascimento_dp7">Data de nascimento:</label>
                     <input type="date" name="nascimento_dp7" id="nascimento_dp7" max="2030-12-30">
                     <input class="input_dependentes" type="submit" value="Cadastrar dependentes">
-                </section>
 
-        </form>
+                </div>
 
+            </form>
+        </div>
+    </main>
 
-
-
-    </section>
 </body>
 
 </html>
