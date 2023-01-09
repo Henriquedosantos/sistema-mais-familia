@@ -1,8 +1,5 @@
 @media screen and (min-width:711px) and (max-width:900px) {
  
- body {
-    background-color: orange;
-  }
 
  
 
@@ -17,10 +14,6 @@
 
 
 @media screen and (min-width:912px) and (max-width:1368px) {
-
- body {
-    background-color: rgb(31, 12, 12);
-  }
 
 
   

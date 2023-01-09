@@ -1,13 +1,9 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 
 /* versão para iphone- celular */
 
 
 @media screen and (min-width: 120px) and (max-width: 710px) {
-
-    body{
-        background-color: green;
-    }
 
     header > img{
         height: 55px;
