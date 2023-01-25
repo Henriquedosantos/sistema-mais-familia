@@ -1,73 +1,55 @@
 <!DOCTYPE html>
-<html lang="portugues-br">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style-index/index-all.css" media='all'>
-    <link rel="stylesheet" href="styles/style-index/index-screen.css" media='screen'>
-    <link rel="stylesheet" href="styles/style-index/index-ipad.css" media='screen'>
-    <link rel="shortcut icon" href="img-all/favicon/favicon.ico" type="image/x-icon">
-    <title>Consulta ao associado - cartão MAIS FAMÍLIA</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Landing page - Spider Man</title>
 </head>
 
 <body>
+
     <header>
-        <a href="#"><img id='logo' src='img-all/logo-all/logo-sem-fundo.png' alt='logo do cartão MAIS FAMÍLIA'></a>
-        <a id="Link-login" href="sistema-log/login.php">Login</a>
+
+
+
+        <img id="logo-spider"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Marvel_Logo.svg/2560px-Marvel_Logo.svg.png"
+            alt="logo">
+
+
+        <ul>
+            <li>Home</li>
+            <li>Shop</li>
+            <li>About</li>
+            <li>Blog</li>
+            <li>Contatac</li>
+
+            <ul>
+
     </header>
 
     <main>
 
-        <div id="container_one">
-            <h4>Rápido, fácil e prático!</h4>
-
-            <h1>
-                Seja bem-vindo ao nosso sistema de consulta ao associado <a href="sistema-cadastro/cadastro-clientes.html">aqi</a>.
-            </h1>
-
-            <p>
-                Caso tenha dúvidas de como consultar o seu associado no nosso sistema de consulta, <a
-                    id="link-whaatsApp" href="https://wa.me/5513988081192?text=Ol%C3%A1%2C+estou+tendo+d%C3%BAvidas+de+como+consultar+o+associado.+Pode+me+ajudar.%3F" target = "_blank" rel = "externol">clique aqui</a> e tire as suas dúvidas com o escritório.
+        <div id="container">
+            <img id = "img_01" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Spider-Man-PS4-2018.png" alt="">
+            <h1>Spider Man</h1>
+            <p>Spider-Man é um jogo eletrônico de ação-aventura desenvolvido pela <span>Insomniac Games</span> e publicado pela Sony Interactive Entertainment.
             </p>
-
-            <a id="link-consultar" href="#form">Consultar associado</a>
-
 
         </div>
 
 
-        <img id="imagem-one" src="https://cdns1.2rscms.com.br/custom/2289/uploads/cartao/moca-com-cartao-dois.png" alt="mulher-segurando-cartao-mais-família">
+        <div id = "container_img">
+        <img id="spider-img" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/45828a29-e0f6-4e7f-9ffe-2367b84bc0b5/de5b5vc-689d9877-0e25-4df6-972c-e9ea44c8a640.png/v1/fill/w_821,h_973,strp/spider_man__miles_morales_ps5_png__1___updated__by_f0rspoken_de5b5vc-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTg2OSIsInBhdGgiOiJcL2ZcLzQ1ODI4YTI5LWUwZjYtNGU3Zi05ZmZlLTIzNjdiODRiYzBiNVwvZGU1YjV2Yy02ODlkOTg3Ny0wZTI1LTRkZjYtOTcyYy1lOWVhNDRjOGE2NDAucG5nIiwid2lkdGgiOiI8PTE1NzcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.5XwQZ8LM--IzJDKaoV959Mo8AGPXDYPRe_3qTjQ4Nwc"
+            alt="spider-man">
+        </div>
+
     </main>
 
-
-    <section id ="form">
-
-        <form method="POST" action="sistema-consulta/consultando-ass.php" >
-
-
-            <h2>
-               Preencha os campos abaixo
-            </h2>
-
-
-            <label for="name_titular">Nome e sobrenome do titular:</label>
-            <input type="text" id="name_titular" name="name_titular" placeholder="Lorrany Santos" maxlength="22">
-
-            <label for="code_carteirinha">Nº carteirinha:</label>
-            <input type="text" id="code_carteirinha" name="code_carteirinha" placeholder=" Últimos quatro dígitos (xxxx)" required maxlength="4">
-
-            <div id="container_submit"><input id="bottom-consultar" type="submit" name="submit" value="Consultar associado"></div>
-        </form>
-
-        <img id = "img-consultar" src="img-all/fotos-all/img-consultar.jpg"  alt="consulta ao associado">
-    </section>
-
-
-
-
-
+   
 </body>
 
 </html>

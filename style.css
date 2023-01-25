@@ -1,0 +1,174 @@
+@charset  "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:wght@400;600&display=swap');
+
+
+
+@keyframes opacity {
+    to{
+        opacity: 0.3;
+    }    
+
+    from{
+        opacity: 1;
+    }
+}
+
+
+@keyframes animation {
+
+    0%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+
+
+    50%{
+       
+        transform: translateY(-30px);
+    }
+
+
+    100%{
+       
+        transform: translateX(0px);
+    }
+}
+
+
+@keyframes text{
+    0%{
+       
+        opacity: 0;
+        transform: translateY(0px);
+    }
+
+    50%{
+       
+        
+        transform: translatex(20px);
+    }
+
+    100%{ 
+        opacity: 1;
+        transform: translateY(0px);
+    }
+} 
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    border-bottom: 2px solid #fff;
+    padding: 20px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline;
+    font-weight: 400;
+    font-size: 25px;
+
+    margin-left: 1em;
+    color: #fff;
+    cursor: pointer;
+}
+
+li:hover{
+    text-decoration: underline;
+}
+
+body{
+   
+    height: 100vh;
+    background: rgb(139, 51, 40);
+}
+
+
+
+img#logo-spider{
+    animation: text 2s 1s ease-in-out forwards;
+    opacity: 0;
+    height: 40px;
+}
+
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    gap: 1em;
+
+    width: 74em;
+    
+}
+
+div#container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+img#img_01{
+    animation: text 2s 1s ease-in-out forwards;
+    opacity: 0;
+    width: 124px;
+   
+}
+
+
+h1, p, li {
+    animation: text 2s 1s ease-in-out forwards;
+    opacity: 0;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    text-shadow: 1px 1px 1px #0000002d;
+}
+
+div#container > h1{
+    text-shadow: 10px 11px 0px #751407;
+    font-size: 10em;
+    color: #fff;
+   
+}
+
+div#container > p{
+    font-size: 25px;
+    width: 90%;
+    line-height: 1.2em;
+    color: #fff;
+}
+
+
+@keyframes opac {
+
+
+    
+    from{
+        opacity: 0;
+    }
+
+    
+}
+
+#container_img{
+    animation: opac 2s 0ms ease-in-out forwards;
+    opacity: 1;
+}
+   
+
+img#spider-img{
+    animation: animation 3s 0ms ease-in-out infinite;
+    height:35em;
+}
+
+
