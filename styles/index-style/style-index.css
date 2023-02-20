@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+/*CONGIFURAÇÕES GERAIS */
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body, html{
+    height: 100%;
+}
+
+header#caixa-header-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    border-bottom: 3px solid #23b571;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    margin-bottom: 5em;
+}
+
+img#logo-cubatão-prefeitura{
+    height: 4em;
+    cursor: pointer;
+}
+
+#bnt-encerrar{
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+#bnt-encerrar:hover{
+    background-color: #21a568;
+}
+
+
+main{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+
+    width: 95%;
+    margin: auto;
+}
+
+div.card{
+    width: 20rem;
+    cursor: pointer;
+}
+
+
+/*ADAPTAÇÃO EM PC */
+
+@media screen and (min-width: 1130px) and (max-width: 1464px){
+
+
+    div.card{
+        width: 16rem;
+        cursor: pointer;
+    }
+
+
+
+}
+
+
+@media screen and (min-width:1130px) and (max-width: 1194px){
+
+
+    div.card{
+        width: 15rem;
+    }
+
+
+
+}
+
+
+
+@media screen and (min-width: 1039px) and (max-width: 1129px){
+
+
+    div.card{
+        width: 13rem;
+    }
+
+
+
+}
