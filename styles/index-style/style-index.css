@@ -25,12 +25,13 @@ header#caixa-header-main{
 }
 
 img#logo-cubatão-prefeitura{
-    height: 4em;
+    height: 4.7em;
     cursor: pointer;
 }
 
 #bnt-encerrar{
     padding: 10px;
+    font-size: 20px;
     border: none;
     outline: none;
 }
@@ -54,6 +55,7 @@ main{
 
 div.card{
     width: 20rem;
+    margin-bottom: 3em;
     cursor: pointer;
 }
 
