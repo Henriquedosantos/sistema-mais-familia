@@ -1,0 +1,119 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+
+:root {
+
+    --fontPadrao: 'Roboto', sans-serif;
+    ;
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body,
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #f0eeee;
+}
+
+
+main {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+
+section#section-prefeitura-cubatao {
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    border-radius: 0px 20px 20px 0px;
+
+}
+
+
+
+section#formulario-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    border-right: 4px solid #a7ba99;
+    padding: 25px;
+}
+
+
+form {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    padding: 15px;
+}
+
+form > input{
+    font-family: var(--fontPadrao);
+    outline: none;
+    border-color: rgba(0, 0, 0, 0.364);
+    font-size: 20px;
+    padding: 10px;
+    width: 22em;
+}
+
+form > input.submit{
+    outline: none;
+    border: none;
+    padding:10px;
+    font-weight: bold;
+
+    color: #fff;
+    font-family: var(--fontPadrao);
+    font-size: 25px;
+    width: 100%;
+    border-radius: 4px;
+    background-color: #68A63C;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+form > input.submit:hover{
+ background-color: #598e34;
+
+}
+
+input::placeholder{
+    font-family: var(--fontPadrao);
+    color: rgba(0, 0, 0, 0.334);
+}
+
+.h2, h2 {
+    font-family: var(--fontPadrao);
+    font-size: 4rem;
+    color: #057134;;
+    margin-bottom: 20px;
+}
+
+p#acesso-negado{
+    font-size: 30px;
+    font-weight: bold;
+    color: brown;
+}
+
+
+img#picture-logo-prefeitura{
+    height:8em;
+}

@@ -1,0 +1,50 @@
+@media screen and (min-width: 253px) and (max-width: 767px) {
+
+
+    main{
+        flex-direction: column-reverse;
+        
+    }
+
+    section#formulario-section{
+        border: none;
+        border-top: 3px solid #a7ba99;
+        padding:25px
+  
+    }
+
+    .h2,
+    h2 {
+       
+        font-size: 30px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+
+    p#acesso-negado {
+        font-size: 20px;
+        text-align: center;
+    }
+
+
+    form>input {
+
+        width: 15em;
+        font-size:16px;
+    }
+
+    form>input.submit {
+
+        padding: 10px;
+        font-size: 18px;
+
+    }
+
+
+    img#picture-logo-prefeitura {
+        height: 4em;
+    }
+}
+
+
+
