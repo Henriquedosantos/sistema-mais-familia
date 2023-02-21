@@ -46,7 +46,7 @@ section#section-prefeitura-cubatao {
     border-radius: 0px 20px 20px 0px;
     background-blend-mode: darken;
     height: 26.9em;
-    background: #59595999 url(https://www.tce.sp.gov.br/sites/default/files/styles/max_800x800/public/noticias/Webdoor%20escolas%20inter.png?itok=6BAOOOOl);
+    background: #59595999 url(/imagens/imagem-sala-de-aula.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -122,6 +122,6 @@ p#acesso-negado {
 
 
 img#picture-logo-prefeitura {
-    height: 8em;
+    height: 13em;
     margin: auto;
 }
