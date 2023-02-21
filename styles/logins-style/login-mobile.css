@@ -1,6 +1,12 @@
 @media screen and (min-width: 253px) and (max-width: 767px) {
 
 
+    section#section-prefeitura-cubatao {
+        height: 8em;
+        width: 85%;
+        border-radius: 0;
+    }
+
     main{
         flex-direction: column-reverse;
         
@@ -8,7 +14,7 @@
 
     section#formulario-section{
         border: none;
-        border-top: 3px solid #a7ba99;
+        border-top: 3px solid #ffffff;
         padding:25px
   
     }
