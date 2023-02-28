@@ -2,6 +2,7 @@
 
 @media screen and (min-width: 275px) and (max-width: 707px){
 
+
     header#caixa-header-main{
         justify-content: space-around;
         gap:2em;
@@ -9,7 +10,7 @@
 
 
     img#logo-cubatão-prefeitura{
-        height: 52px;
+        height: 4em;
         margin-left: 1em;
 
     }

@@ -1,17 +1,17 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
-
-/*CONGIFURAÇÕES GERAIS */
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600&display=swap');
 :root{
 
-    --fontPadrao: 'Roboto', sans-serif;;
+    --fontPadrao: 'Roboto', sans-serif;
+
+    --fontsuperior: 'Mulish', sans-serif;
 
 }
 *{
     margin: 0;
     padding: 0;
-    font-family:'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -31,13 +31,14 @@ header#caixa-header-main{
 }
 
 img#logo-cubatão-prefeitura{
-    height: 4.7em;
+    height: 6em;
     cursor: pointer;
 }
 
 #bnt-encerrar{
+    font-family:var(--fontsuperior);
     padding: 10px;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     border: none;
     outline: none;
@@ -69,6 +70,7 @@ div.card{
 
 
 .card-title{
+    font-family:var(--fontsuperior);
     font-weight: bold;
 }
 
@@ -78,7 +80,7 @@ img, svg {
 }
 
 a#link-card{
-    font-weight: bold;
+    font-family:var(--fontsuperior);
 }
 
 p.card-text{
@@ -86,6 +88,7 @@ p.card-text{
 }
 
 .bold{
+    font-family:var(--fontPadrao);
     font-weight: bold;
 }
 
@@ -100,6 +103,16 @@ p.card-text{
         cursor: pointer;
     }
 
+    
+    img#logo-cubatão-prefeitura{
+        height: 5em;
+     
+    }
+
+    #bnt-encerrar{
+        font-size: 22px;
+    }
+
 
 
 }
@@ -110,6 +123,16 @@ p.card-text{
 
     div.card{
         width: 15rem;
+    }
+
+
+    img#logo-cubatão-prefeitura{
+        height: 5em;
+     
+    }
+
+    #bnt-encerrar{
+        font-size: 22px;
     }
 
 
@@ -127,4 +150,38 @@ p.card-text{
 
 
 
+    img#logo-cubatão-prefeitura{
+        height: 5em;
+     
+    }
+
+    #bnt-encerrar{
+        font-size: 22px;
+    }
+
+
+
+
 }
+
+
+
+@media screen and (min-width: 708px) and (max-width:1039px){
+
+
+
+    img#logo-cubatão-prefeitura{
+        height: 5em;
+     
+    }
+
+    #bnt-encerrar{
+        font-size: 22px;
+    }
+
+
+
+
+}
+
+

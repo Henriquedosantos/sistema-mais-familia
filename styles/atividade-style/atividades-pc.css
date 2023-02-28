@@ -1,0 +1,536 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600&display=swap');
+
+:root {
+
+    --fontPadrao: 'Roboto', sans-serif;
+
+    --fontsuperior: 'Mulish', sans-serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+
+body,
+html {
+    height: 100%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1em;
+    background-color: rgb(255, 255, 255);
+    padding: 20px
+}
+
+/*header > ul{
+    display:flex;
+}
+
+header > ul > li{
+    font-family: var(--fontPadrao);
+    font-size: 20px;
+    list-style: none;
+    margin-right: 2em;
+   
+}
+
+
+header > ul > li > a{
+    text-decoration: none;
+     color: rgb(48, 154, 94);;
+}
+
+header > ul > li > a:hover{
+    color: rgb(61, 199, 121);
+}
+
+
+*/
+
+header>img#logo-header-prefeitura {
+    height: 6em;
+    cursor: pointer;
+}
+
+
+
+div#area-do-login {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+img#usuario-login {
+    height: 4em;
+    width: 4em;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+summary {
+    font-family: var(--fontsuperior);
+    font-size: 27px;
+    margin-bottom: 10px;
+    color: rgb(48, 154, 94);
+    ;
+}
+
+a.nav-header, a.links-header-mobile {
+    font-family: var(--fontPadrao);
+    font-weight: 200;
+    font-size: 22px;
+    text-decoration: none;
+    margin-left: 20px;
+    color: rgb(48, 154, 94);
+}
+
+a.nav-header:hover, a.links-header-mobile:hover {
+    text-decoration: underline;
+    color: rgb(62, 199, 121);
+}
+
+
+
+
+/*ALERTAS DO HEADER*/
+
+div#alerta-positivo {
+    display: block;
+}
+
+
+div#alerta-laranja {
+    display: block;
+}
+
+
+div#alerta-vermelho {
+    display: block;
+}
+
+
+
+div#foto-escola {
+    background: rgba(0, 0, 0, 0.415) url("https://web.arapiraca.al.gov.br/wp-content/uploads/2022/05/WhatsAppImage20220525at13.09.34.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: darken;
+    height: 30em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4em;
+}
+
+
+
+img#logo-escola {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 4em;
+}
+
+section#descrição-da-escola {
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(48, 154, 94);
+    ;
+}
+
+section#descrição-da-escola>h3 {
+
+    font-family: var(--fontsuperior);
+    font-weight: bold;
+    font-size: 40px;
+
+    color: rgb(255, 255, 255);
+    ;
+    text-align: center;
+}
+
+div.descricao-atividades-escolares {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+
+div.descricao-atividades-escolares>h1 {
+    font-family: var(--fontsuperior);
+    font-size: 3em;
+    font-weight: bold;
+    color: rgb(48, 154, 94);
+    ;
+
+}
+
+
+div.descricao-atividades-escolares>p {
+    font-family: var(--fontPadrao);
+    font-size: 22px;
+    font-weight: 200;
+    color: #08a24b;
+    ;
+
+}
+
+div#mobile{
+    display: none;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3em;
+
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10em;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+a>div.cards-atividades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+    padding: 20px;
+    background-color: rgb(48, 154, 94);
+    ;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.116);
+    border-radius: 15px;
+
+    height: 22em;
+    width: 21em;
+
+}
+
+
+div.cards-atividades:hover {
+    background-color: rgb(59, 187, 112);
+    ;
+
+}
+
+a>div.cards-atividades>h3 {
+    font-family: var(--fontsuperior);
+    font-weight: bold;
+    font-size: 35px;
+}
+
+a>div.cards-atividades>p {
+    font-family: var(--fontPadrao);
+    font-weight: 200;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+
+a>div.cards-atividades>img.foto-icon-card {
+    height: 9em;
+    background-color: #fff;
+    border: 3px solid rgb(92, 240, 76);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
+footer {
+    background-color: rgb(48, 154, 94);
+    height: 70px;
+}
+
+
+footer>p,
+a#duvida-link {
+    text-align: center;
+    line-height: 70px;
+    color: #ffff;
+}
+
+a#duvida-link:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+/*ADAPTAÇÃO EM PC */
+
+@media screen and (min-width: 1130px) and (max-width: 1464px) {
+
+    header>img#logo-header-prefeitura {
+        height: 5em;
+    }
+
+
+
+    img#usuario-login {
+        height: 3.3em;
+        width: 3.3em;
+    }
+
+    img#picture-menu{
+        display: none;
+        height: 0em;
+        width: 0em;
+    }
+
+    summary {
+        font-size: 23px;
+    }
+
+    a.nav-header {
+        font-size: 19px;
+    }
+
+
+
+    img#logo-escola {
+        height: 7.9em;
+
+    }
+
+    section#descrição-da-escola>h3 {
+        font-size: 34px;
+    }
+
+
+
+    div.descricao-atividades-escolares>h1 {
+        font-size: 2.8em;
+    }
+
+
+    div.descricao-atividades-escolares>p {
+        font-size: 20px;
+    }
+
+    main {
+        gap: 3em;
+    }
+
+
+    a>div.cards-atividades {
+        height: 20em;
+        width: 17em;
+    }
+
+
+    a>div.cards-atividades>h3 {
+
+        font-size: 29px;
+        text-align: center;
+    }
+
+    a>div.cards-atividades>p {
+
+        font-size: 18px;
+
+
+    }
+
+
+    a>div.cards-atividades>img.foto-icon-card {
+        height: 8em;
+
+    }
+
+
+
+}
+
+
+
+@media screen and (min-width:1130px) and (max-width: 1194px) {
+
+    header>img#logo-header-prefeitura {
+        height: 5em;
+    }
+
+
+
+    img#usuario-login {
+        height: 3.2em;
+        width: 3.2em;
+    }
+
+    img#picture-menu{
+        display: none;
+        height: 0em;
+        width: 0em;
+    }
+
+    summary {
+        font-size: 22px;
+    }
+
+    a.nav-header {
+        font-size: 18px;
+    }
+
+
+
+    img#logo-escola {
+        height: 7.7em;
+
+    }
+
+
+
+
+    section#descrição-da-escola>h3 {
+        font-size: 32px;
+    }
+
+
+
+
+    div.descricao-atividades-escolares>h1 {
+        font-size: 2.5em;
+    }
+
+
+    div.descricao-atividades-escolares>p {
+        font-size: 18px;
+    }
+
+    a>div.cards-atividades {
+        height: 20em;
+        width: 16em;
+    }
+
+    
+    a>div.cards-atividades>h3 {
+
+        font-size: 28px;
+        text-align: center;
+    }
+
+    a>div.cards-atividades>p {
+
+        font-size: 17px;
+    }
+
+
+    a>div.cards-atividades>img.foto-icon-card {
+        height: 7em;
+
+    }
+
+
+
+}
+
+
+
+
+@media screen and (min-width: 1039px) and (max-width: 1129px) {
+
+   
+    header>img#logo-header-prefeitura {
+        height: 4.7em;
+    }
+
+
+
+    img#usuario-login {
+        height: 3em;
+        width: 3em;
+    }
+
+    img#picture-menu{
+        display: none;
+        height: 0em;
+        width: 0em;
+    }
+
+    summary {
+        font-size: 20px;
+    }
+
+    a.nav-header {
+        font-size: 17px;
+    }
+
+
+
+    
+    img#logo-escola {
+        height: 7.5em;
+
+    }
+
+
+
+    section#descrição-da-escola>h3 {
+        font-size: 30px;
+    }
+
+
+
+
+    div.descricao-atividades-escolares>h1 {
+        font-size: 2.4em;
+    }
+
+
+    div.descricao-atividades-escolares>p {
+        font-size: 17px;
+    }
+
+    a>div.cards-atividades {
+        height: 20em;
+        width: 15em;
+    }
+
+    
+    a>div.cards-atividades>h3 {
+
+        font-size: 24px;
+        text-align: center;
+    }
+
+    a>div.cards-atividades>p {
+
+        font-size:16px;
+    }
+
+
+    a>div.cards-atividades>img.foto-icon-card {
+        height: 6em;
+
+    }
+
+
+
+
+}
+
+
+
