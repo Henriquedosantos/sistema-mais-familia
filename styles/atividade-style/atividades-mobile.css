@@ -71,10 +71,11 @@
         margin-bottom: 2em;
     }
 
-    a.nav-header{
+   a.links-header-mobile {
+        font-family: var(--fontPadrao);
+        font-weight: 200;
         font-size: 18px;
     }
-
 
     main{
         width: 60%;

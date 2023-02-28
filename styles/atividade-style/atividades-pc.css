@@ -196,11 +196,11 @@ main {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 3em;
+    gap: 4em;
 
     width: 80%;
     margin: auto;
-    margin-bottom: 10em;
+    margin-bottom: 12em;
 }
 
 a {
@@ -223,7 +223,7 @@ a>div.cards-atividades {
     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.116);
     border-radius: 15px;
 
-    height: 22em;
+    height: 25em;
     width: 21em;
 
 }
