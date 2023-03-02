@@ -1,12 +1,17 @@
-
 @media screen and (min-width: 275px) and (max-width:768px) {
 
-    header{
+    header {
         justify-content: center;
     }
 
     header>img#logo-header-prefeitura {
-        height: 4em;
+        height: 3.5em;
+        margin-left: 1em;
+    }
+
+    #bnt-encerrar {
+        font-size: 13px;
+        margin-right: 1em;
     }
 
 
@@ -18,7 +23,7 @@
     }
 
 
-    img#picture-menu{
+    img#picture-menu {
         display: block;
         height: 3em;
         width: 3em;
@@ -28,12 +33,12 @@
 
     summary {
         display: none;
-       
+
     }
 
 
 
-    
+
     img#logo-escola {
         height: 6.8em;
 
@@ -42,7 +47,7 @@
 
 
     section#descrição-da-escola>h3 {
-        font-size:23px;
+        font-size: 23px;
     }
 
 
@@ -61,42 +66,42 @@
     }
 
 
-    div#mobile{
+    div#mobile {
 
         display: block;
         text-align: center;
         margin: auto;
         background-color: rgb(245, 242, 242);
-        padding:10px;
+        padding: 10px;
         margin-bottom: 2em;
     }
 
-   a.links-header-mobile {
+    a.links-header-mobile {
         font-family: var(--fontPadrao);
         font-weight: 200;
         font-size: 18px;
     }
 
-    main{
+    main {
         width: 60%;
         gap: 2em;
     }
 
     a>div.cards-atividades {
         height: 16em;
-        width:15em;
+        width: 15em;
     }
 
-    
+
     a>div.cards-atividades>h3 {
 
-        font-size:22px;
+        font-size: 22px;
         text-align: center;
     }
 
     a>div.cards-atividades>p {
 
-        font-size:15px;
+        font-size: 15px;
     }
 
 

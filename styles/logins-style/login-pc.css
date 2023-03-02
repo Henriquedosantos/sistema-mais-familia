@@ -42,7 +42,7 @@ section#section-prefeitura-cubatao {
     border-radius: 0px 20px 20px 0px;
     background-blend-mode: darken;
     height: 26.9em;
-    background: #59595999 url(/pictures/pictures-all/imagem-sala-de-aula.jpg);
+    background: #59595999 url("/pictures/pictures-all/imagem-sala-de-aula.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
