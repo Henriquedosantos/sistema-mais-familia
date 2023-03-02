@@ -4,6 +4,16 @@
         justify-content: center;
     }
 
+
+
+    header>img#logo-header-prefeitura {
+        height: 4em;
+        cursor: pointer;
+    }
+
+
+
+
     img#logo-cubatão-prefeitura {
         height: 3.3em;
         margin-left: 1em;
