@@ -1,0 +1,61 @@
+@media screen and (min-width:481px) and (max-width: 768px){
+
+   
+    header#caixa-header-main {
+        justify-content: start;
+    }
+
+
+    
+    img#logo-cubatão-prefeitura {
+        height: 4em;
+        margin-left: 2em;
+
+    }
+
+    div#descricao {
+        flex-direction: column-reverse;
+        margin-left: 0em;
+       
+        width: 90%;
+        margin: auto;
+        margin-bottom: 4rem;
+    
+    }
+
+
+    div#descricao>div#caixa-descricao-titulos>h1 {
+      
+        font-size: 3em;
+        text-align: center;
+   
+    }
+
+    div#descricao>div#caixa-descricao-titulos>p {
+       
+        font-size: 16px;
+        text-align: justify;
+        width: 100%;
+    }
+
+    img.picture-classes {
+        height: 13rem;
+        width: 13em;
+
+    }
+    
+
+    main>article#caixa-classes-series {
+       
+        flex-wrap: wrap;
+    
+    }
+
+    div.card {
+        width: 40rem;
+    
+    }
+    
+    
+
+}

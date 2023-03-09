@@ -83,37 +83,6 @@
         color: #efeeee;
     }
 
-    main {
-        width: 60%;
-        gap: 2em;
-    }
-
-    a>div.cards-atividades {
-        height: 16em;
-        width: 15em;
-    }
-
-
-    a>div.cards-atividades>h3 {
-
-        font-size: 22px;
-        text-align: center;
-    }
-
-    a>div.cards-atividades>p {
-
-        font-size: 15px;
-    }
-
-
-    a>div.cards-atividades>img.foto-icon-card {
-        height: 4.8em;
-        margin-bottom: 1em;
-
-    }
-
-
-
-
+   
 
 }

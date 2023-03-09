@@ -1,0 +1,88 @@
+@media screen and (min-width: 275px) and (max-width:768px) {
+
+    header {
+        justify-content: center;
+    }
+
+
+
+    header>img#logo-header-prefeitura {
+        height: 4em;
+        cursor: pointer;
+    }
+
+
+    img#usuario-login {
+        display: none;
+        height: 3em;
+        width: 3em;
+    }
+
+
+    img#picture-menu {
+        display: block;
+        height: 3em;
+        width: 3em;
+        cursor: pointer;
+
+    }
+
+    summary {
+        display: none;
+
+    }
+
+
+
+
+    img#logo-escola {
+        height: 6.8em;
+
+    }
+
+
+
+    section#descrição-da-escola>h3 {
+        font-size: 23px;
+    }
+
+
+
+
+    div.descricao-atividades-escolares>h1 {
+        font-size: 2em;
+        text-align: center;
+    }
+
+
+    div.descricao-atividades-escolares>p {
+        font-size: 16px;
+        width: 95%;
+        text-align: center;
+    }
+
+
+    div#mobile {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgb(48, 154, 94);
+        padding: 15px;
+        margin-bottom: 4em;
+    }
+
+    a.links-header-mobile {
+        font-family: var(--fontsuperior);
+        font-weight: bold;
+        font-size: 20px;
+        color: #fff;
+        
+    }
+
+    a.links-header-mobile:hover{
+        color: #efeeee;
+    }
+
+   
+
+}

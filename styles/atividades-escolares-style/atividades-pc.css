@@ -1,0 +1,241 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600&display=swap');
+
+:root {
+
+    --fontPadrao: 'Roboto', sans-serif;
+
+    --fontsuperior: 'Mulish', sans-serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+
+body,
+html {
+    height: 100%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1em;
+    background-color: rgb(255, 255, 255);
+    padding: 20px
+}
+
+
+header>img#logo-header-prefeitura {
+    height: 6em;
+    cursor: pointer;
+}
+
+
+
+div#area-do-login {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+img#usuario-login {
+    height: 4em;
+    width: 4em;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+summary {
+    font-family: var(--fontsuperior);
+    font-size: 27px;
+    margin-bottom: 10px;
+    color: rgb(48, 154, 94);
+    ;
+}
+
+a.nav-header, a.links-header-mobile {
+    font-family: var(--fontPadrao);
+    font-weight: 200;
+    font-size: 22px;
+    text-decoration: none;
+    margin-left: 20px;
+    color: rgb(48, 154, 94);
+}
+
+a.nav-header:hover, a.links-header-mobile:hover {
+    text-decoration: underline;
+    color: rgb(62, 199, 121);
+}
+
+
+
+
+/*ALERTAS DO HEADER*/
+
+div#alerta-positivo {
+    display: block;
+}
+
+
+div#alerta-laranja {
+    display: block;
+}
+
+
+div#alerta-vermelho {
+    display: block;
+}
+
+
+
+div#foto-escola {
+    background: rgba(0, 0, 0, 0.415) url("../pictures/pictures-escolas/escola-teste.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: darken;
+    height: 30em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4em;
+}
+
+
+
+img#logo-escola {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 4em;
+}
+
+section#descrição-da-escola {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    width: 100%;
+    background-color: rgb(48, 154, 94);
+}
+
+section#descrição-da-escola>h3 {
+
+    font-family: var(--fontsuperior);
+    font-weight: bold;
+    font-size: 40px;
+
+    color: rgb(255, 255, 255);;
+}
+
+div.descricao-atividades-escolares {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+
+div.descricao-atividades-escolares>h1 {
+    font-family: var(--fontsuperior);
+    font-size: 3em;
+    font-weight: bold;
+    color: rgb(48, 154, 94);
+    ;
+
+}
+
+
+div.descricao-atividades-escolares>p {
+    font-family: var(--fontPadrao);
+    font-size: 22px;
+    font-weight: 200;
+    color: #08a24b;
+    ;
+
+}
+
+img#picture-card{
+   height: 10em;
+}
+
+div#mobile{
+    display: none;
+}
+
+main, section.main-dois-secretaria {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+
+   
+    margin: auto;
+    margin-bottom: 3em;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+
+footer {
+    background-color: rgb(48, 154, 94);
+    height: 70px;
+}
+
+
+footer>p,
+a#duvida-link {
+    text-align: center;
+    line-height: 70px;
+    color: #ffff;
+}
+
+a#duvida-link:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+/*ADAPTAÇÃO EM PC */
+
+
+@media screen and (min-width: 978px) and (max-width:1249px) {
+
+    main, section.main-dois-secretaria {
+        justify-content: start;
+        width: 59em;;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 965px) and (max-width:978px) {
+
+    main, section.main-dois-secretaria {
+        justify-content: start;
+        width: 95%;
+    }
+}

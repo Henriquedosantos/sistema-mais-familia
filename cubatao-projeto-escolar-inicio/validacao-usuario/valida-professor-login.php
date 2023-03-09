@@ -1,3 +1,28 @@
+<?php
+
+session_start();
+
+
+
+
+// BUSCANDO DADOS PARA PROSEGUIR
+
+
+if(isset($_GET['ensino-fundamental']) AND isset($_SESSION['nome-escola-escolhida-session'])){
+    $_SESSION['ensino-fundamental-session'] =  $_GET['ensino-fundamental'];
+    $_SESSION['nome-escola-escolhida-session'];
+
+
+}
+
+
+
+
+
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -5,7 +30,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="../styles/logins-style/login-pc.css" media="all">
     <link rel="stylesheet" href="../styles/logins-style/login-ipad.css" media="screen">
     <link rel="stylesheet" href="../styles/logins-style/login-mobile.css" media="screen">
@@ -17,18 +41,16 @@
 
     <main>
 
-
-
         <section id="formulario-section">
 
             <h2>Acesso do professor</h2>
-            <p id = "acesso-negado"></p>
+            
 
-            <form action="" method="POST">
+            <form action="../logando-usuarios/logando-professor.php" method="POST" autocomplete="off" >
 
                 <input type="email" name="valida-email-professor" id="valida-email-professor" placeholder="E-mail"required maxlength="30">
-                <input type="password" name="valida-senha-professor" id="valida-senha-professor" placeholder="Senha de acesso" required maxlength="12">
-                <input type="submit" class="submit" value="Login">
+                <input type="password" name="valida-senha-professor" id="valida-senha-professor" placeholder="Senha de acesso" required maxlength="20">
+                <input type="submit" name = "submit" class="submit" value="Login">
 
             </form>
         </section>
