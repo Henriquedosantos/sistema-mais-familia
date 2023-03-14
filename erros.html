@@ -36,9 +36,19 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+  }
+
+
+
+  div#card-container {
+    width: 80%;
+    margin: auto;
   }
 
   h1.card-title {
+    font-size: 2.4em;
+    max-width: 60%;
     margin-bottom: 0.5em;
   }
 
@@ -57,10 +67,7 @@
 
   }
 
-  div#card-container {
-    width: 45em;
-    margin: auto;
-  }
+
 
   a#links-erros {
     width: 60%;
@@ -73,16 +80,16 @@
 
   @media screen and (min-width: 768px) and (max-width: 1038px) {
 
-
     h1.card-title {
-      font-size: 35px;
+      font-size: 30px;
       margin-bottom: 0.5em;
+      max-width: 100%;
     }
 
 
 
     div#card-container {
-      width: 32em;
+      width: 80%;
       height: auto;
       margin: auto;
     }
@@ -112,13 +119,14 @@
 
 
     h1.card-title {
-      font-size: 32px;
+      font-size: 28px;
       margin-bottom: 0.5em;
+      max-width: 100%;
     }
 
 
     div#card-container {
-      width: 19em;
+      width: 80%;
       height: auto;
       margin: auto;
     }
@@ -153,7 +161,7 @@
         Mensagem de alerta
       </div>
       <div class="card-body">
-        <h1 class="card-title">Dados não aceito!</h1>
+        <h1 class="card-title">Dados não completamente errados!</h1>
         <p class="card-text">os dados enviados estão de forma incorreta. Não aceitamos este tipo de esxcrita</p>
         <a href="#" id="links-erros" class="btn btn-success">Recomeçar acesso</a>
 
