@@ -192,16 +192,23 @@ button#button-submit:hover{
 
 
 
-/*MEDIAS SCREEN - IPADS - 769px — 1024px*/
+/*MEDIAS SCREEN - CELULARES  - 769px — 1024px*/
+
 
 @media (min-width: 220px) AND (max-width:380px) {
   
+    body{
+        background-color: #fff;
+    }
+
+
     div.container {
         flex-direction: column;
         gap: 1em;
-        height: 100%;
+        height: none;
         width: 100%;
         border-radius: 0;
+        box-shadow: none;
     }
 
     div.container-pictures {
@@ -252,13 +259,18 @@ button#button-submit:hover{
 
 @media (min-width: 381px) AND (max-width: 768px) {
 
+    body{
+        background-color: #fff;
+    }
+
 
     div.container {
         flex-direction: column;
         gap: 1em;
-        height: 100%;
+        height: none;
         width: 100%;
         border-radius: 0;
+        box-shadow: none;
     }
 
     div.container-pictures {
@@ -286,10 +298,8 @@ button#button-submit:hover{
     }
 
     button#button-submit {
-
         padding: 7px;
         font-size: 1.3rem;
-        
     }
 
 }
