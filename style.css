@@ -127,7 +127,7 @@ button#button-submit {
     border: none;
 
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: rgb(249, 249, 249);
     margin-top: 1rem;
 }
@@ -283,6 +283,13 @@ button#button-submit:hover{
         width: 93%;
         font-size: 14px;
 
+    }
+
+    button#button-submit {
+
+        padding: 7px;
+        font-size: 1.3rem;
+        
     }
 
 }
