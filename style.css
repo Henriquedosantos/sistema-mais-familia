@@ -18,7 +18,8 @@ body {
     align-items: center;
 }
 
-html{
+
+html {
     height: 100vh;
 }
 
@@ -37,7 +38,7 @@ div.container {
 
 
 div.container-pictures {
-    width: 80%;
+    width: 70%;
 }
 
 div.container-pictures>img {
@@ -100,6 +101,7 @@ div.caixa-form>form#form-login {
 }
 
 
+
 div.caixa-form>form#form-login>input {
     margin-bottom: 2%;
     border: none;
@@ -110,9 +112,10 @@ div.caixa-form>form#form-login>input {
     font-size: 1rem;
 }
 
+
 div.caixa-form>form#form-login>input::placeholder {
     font-weight: 500;
-    font-size: 15px;
+    font-size: 1rem;
 }
 
 
@@ -124,19 +127,21 @@ button#button-submit {
     border: none;
 
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: rgb(249, 249, 249);
     margin-top: 1rem;
+}
+
+button#button-submit:hover{
+    transition-duration: 1s;
+    background-color: rgb(9, 184, 9);
 }
 
 
 /*MEDIAS SCREEN - NOTBOOK -  1025px — 1200px*/
 
 
-@media (min-width: 1025px) AND (max-width: 1200px) {
-
-  
-}
+@media (min-width: 1025px) AND (max-width: 1200px) {}
 
 
 
@@ -144,7 +149,9 @@ button#button-submit {
 
 @media (min-width: 769px) AND (max-width: 1024px) {
 
-
+    div.container-pictures{
+        width: 80%;
+    }
 
     div.container-pictures>img {
         width: 100%;
@@ -181,15 +188,70 @@ button#button-submit {
     }
 
 
-
 }
 
 
 
 /*MEDIAS SCREEN - IPADS - 769px — 1024px*/
 
-@media (min-width: 230px) AND (max-width: 768px) {
+@media (min-width: 220px) AND (max-width:380px) {
+  
+    div.container {
+        flex-direction: column;
+        gap: 1em;
+        height: 100%;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    div.container-pictures {
+        width: 70%;
+    }
+
+    div.container-pictures>img {
+        width: 100%;
+        height: 8rem;
+    }
+
+
+
+    div.container-form-text>div.caixa-text>h2#h2-title {
+        font-size: 1.2rem;
+    }
+
+    div.container-form-text>div.caixa-text>h1#h1-title {
+        font-size: 1.5rem;
+    }
+
+    div.container-form-text>div.caixa-text>p#p {
+        width: 93%;
+        font-size: 12px;
+
+    }
+
+    div.caixa-form>form#form-login>input::placeholder {
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    div.caixa-form>form#form-login>input {
+        font-size: 13px;
+    }
+
+    button#button-submit {
+        font-size: 1rem;
+        padding: 7px;
+
+    }
+
     
+}
+
+
+
+
+@media (min-width: 381px) AND (max-width: 768px) {
+
 
     div.container {
         flex-direction: column;
@@ -199,16 +261,16 @@ button#button-submit {
         border-radius: 0;
     }
 
-    div.container-pictures{
-        width: 100%;
+    div.container-pictures {
+        width: 70%;
     }
 
     div.container-pictures>img {
-        width: 90%;
+        width: 80%;
         height: 14rem;
     }
 
-    
+
     div.container-form-text>div.caixa-text>h2#h2-title {
         font-size: 1.6rem;
     }
@@ -218,7 +280,7 @@ button#button-submit {
     }
 
     div.container-form-text>div.caixa-text>p#p {
-        width: 90%;
+        width: 93%;
         font-size: 14px;
 
     }
