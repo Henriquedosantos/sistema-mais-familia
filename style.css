@@ -53,14 +53,14 @@ div.container-pictures>img {
 div.container-form-text>div.caixa-text>h2#h2-title {
     font-size: 2rem;
     font-weight: 600;
-    color: rgb(18, 172, 172);
+    color: #037CFE;
 }
 
 div.container-form-text>div.caixa-text>h1#h1-title {
     font-size: 2.1rem;
     font-weight: 600;
     margin-bottom: 3%;
-    color: rgb(22, 204, 204);
+    color: #0665ca;
 }
 
 div.container-form-text>div.caixa-text>p#p {
@@ -120,7 +120,7 @@ div.caixa-form>form#form-login>input::placeholder {
 
 
 button#button-submit {
-    background-color: rgb(22, 204, 204);
+    background-color: #037CFE;
     border-radius: 12px;
     cursor: pointer;
     padding: 10px;
@@ -134,7 +134,7 @@ button#button-submit {
 
 button#button-submit:hover{
     transition-duration: 1s;
-    background-color: rgb(9, 184, 9);
+    background-color: #065cb8;
 }
 
 
