@@ -1,0 +1,296 @@
+@charset "UFT-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+main {
+    display: flex;
+    height: 100vh;
+
+}
+
+div#caixa-login {
+    padding: 10px;
+    width: 50vw;
+
+}
+
+div#caixa-login {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div#caixa-center {
+    width: 60%;
+}
+
+div#caixa-center>div#caixa-descricao-img-login>img#logo-imagem {
+    height: 6rem;
+    max-width: 90%;
+    margin-bottom: 1.5rem;
+}
+
+
+div#caixa-descricao-img-login>div#descricao-login>h2 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #205A8C;
+}
+
+
+div#descricao-login>p {
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    color: #20638C;
+}
+
+
+div#caixa-center>form#login-form {
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+    padding: 10px;
+
+}
+
+
+#submit-login {
+    font-family: 'Barlow', sans-serif;
+    margin-left: 0.4em;
+    max-width: 60%;
+    padding: 8px;
+    font-size: 18px;
+    margin-top: 2em;
+    border-radius: 10px;
+}
+
+
+div#caixa-img-login {
+    width: 50vw;
+
+}
+
+
+img#img-login-right {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+/* versão para ipad - tabletes */
+
+@media screen and (min-width: 481px) and (max-width:1080px) {
+
+
+    main {
+        flex-direction: column-reverse;
+        gap: 2em;
+        height: 100vh;
+    }
+
+
+    div#caixa-login {
+        width: 100vw;
+        margin: auto;
+        margin-bottom: 2em;
+    }
+
+    div#caixa-center>div#caixa-descricao-img-login>img#logo-imagem  {
+        height: 4.2rem;
+    }
+
+    div#caixa-descricao-img-login>div#descricao-login>h2 {
+        font-size: 18px;
+        color: #205A8C;
+    }
+
+    div#descricao-login>p {
+        font-size: 15px;
+        color: #20638C;
+    }
+
+    #submit-login {
+        font-size: 15px;
+        max-width: 60%;
+
+    }
+
+    div#caixa-img-login {
+        width: 100vw;
+        margin: auto;
+        height: 100%;
+       
+    }
+
+    div#caixa-center {
+        
+        width: 100%;
+    }
+
+    img#img-login-right {
+        width: 100%;
+        /* height: 100%; */
+    }
+
+
+
+    /*FORMULARIO*/
+    label,
+    input {
+
+        font-size: 15px;
+
+    }
+
+
+
+
+
+
+}
+
+
+
+/* versão para celulares - iphones */
+
+@media screen and (min-width: 300px ) and (max-width:480px) {
+
+    main {
+        flex-direction: column-reverse;
+        gap: 2em;
+        height: 100vh;
+    }
+
+
+    div#caixa-login {
+        width: 100vw;
+        margin: auto;  
+        margin-bottom: 2em;
+    }
+
+    div#caixa-center>div#caixa-descricao-img-login>img#logo-imagem {
+        height: 4.2rem;
+    }
+
+    div#caixa-descricao-img-login>div#descricao-login>h2 {
+        font-size: 18px;
+        color: #205A8C;
+    }
+
+    div#descricao-login>p {
+        font-size: 15px;
+        color: #20638C;
+    }
+
+    #submit-login {
+        font-size: 15px;
+        max-width: 60%;
+
+    }
+
+    div#caixa-img-login {
+        width: 100vw;
+        height: 100%;
+        margin: auto;
+     
+    }
+
+    div#caixa-center {
+       
+        width: 100%;
+    }
+
+
+    img#img-login-right {
+        width: 100%;
+        /* height: 100%; */
+    }
+
+
+
+    /*FORMULARIO*/
+    label,
+    input {
+
+        font-size: 15px;
+
+    }
+
+}
+
+
+@media screen and (min-width: 100px ) and (max-width:300px){
+
+    
+    main {
+        flex-direction: column-reverse;
+        gap: 2em;
+        height: 100vh;
+    }
+
+
+    div#caixa-login {
+        width: 100vw;
+        margin: auto;
+        margin-bottom: 2em;
+    }
+
+    div#caixa-center>div#caixa-descricao-img-login>img#logo-imagem  {
+        height: 4.2rem;
+    }
+
+    div#caixa-descricao-img-login>div#descricao-login>h2 {
+        font-size: 18px;
+        color: #205A8C;
+    }
+
+    div#descricao-login>p {
+        font-size: 15px;
+        color: #20638C;
+    }
+
+    #submit-login {
+        font-size: 15px;
+        max-width: 60%;
+
+    }
+
+    div#caixa-img-login {
+        width: 100vw;
+        height: 100%;
+        margin: auto;
+    }
+
+    div#caixa-center {
+        margin-top: 4em;
+        width: 100%;
+    }
+
+
+    img#img-login-right {
+        width: 100%;
+        /* height: 100%; */
+    }
+
+
+
+    /*FORMULARIO*/
+    label,
+    input {
+
+        font-size: 15px;
+
+    }
+}
