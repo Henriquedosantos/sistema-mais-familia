@@ -95,8 +95,8 @@ img#img-login-right {
 
 
     main {
-        flex-direction: column-reverse;
-        gap: 2em;
+        flex-direction: column;
+        gap: 1em;
         height: 100vh;
     }
 
@@ -153,6 +153,9 @@ img#img-login-right {
         font-size: 15px;
 
     }
+    div#aceso-negado{
+        width: 100%;
+    }
 
 
 
@@ -168,10 +171,11 @@ img#img-login-right {
 @media screen and (min-width: 300px ) and (max-width:480px) {
 
     main {
-        flex-direction: column-reverse;
-        gap: 2em;
+        flex-direction: column;
+        gap: 1em;
         height: 100vh;
     }
+
 
 
     div#caixa-login {
@@ -228,6 +232,10 @@ img#img-login-right {
 
     }
 
+    div#aceso-negado{
+        width: 100%;
+    }
+
 }
 
 
@@ -235,8 +243,8 @@ img#img-login-right {
 
     
     main {
-        flex-direction: column-reverse;
-        gap: 2em;
+        flex-direction: column;
+        gap: 1em;
         height: 100vh;
     }
 
@@ -292,5 +300,10 @@ img#img-login-right {
 
         font-size: 15px;
 
+    }
+
+
+    div#aceso-negado{
+        width: 100%;
     }
 }
