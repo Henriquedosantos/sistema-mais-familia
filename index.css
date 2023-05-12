@@ -177,6 +177,10 @@ div#aceso-negado {
         /* height: 100%; */
     }
 
+    input{
+        padding:10px;
+    }
+
 
 
     /*FORMULARIO*/
@@ -259,7 +263,7 @@ div#aceso-negado {
     }
 
     div#aceso-negado {
-        width: 100%;
+        width: 99%;
     }
 
 }
@@ -330,6 +334,6 @@ div#aceso-negado {
 
 
     div#aceso-negado {
-        width: 100%;
+        width: 99%;
     }
 }
