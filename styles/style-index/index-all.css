@@ -88,7 +88,7 @@ p#text-p {
 
 button#button-consultar {
     font-size: 20px;
-    width: 20em;
+    min-width: 80%;
     padding: 15px;
 
 }
@@ -98,51 +98,11 @@ button#button-consultar {
 }
 
 
-@media screen and (min-width: 675px) and (max-width:1024px) {
-
-    body {
-        background-color: rgb(255, 255, 255);
-    }
-
-    img#logo-mais-familia {
-        height: 4.6em;
-    }
-
-    a#link {
-        font-size: 18px;
-    }
-
-    button#dropdownHelperButton,
-    #login-button {
-        font-size: 15px;
-        padding: 15px;
-    }
-    h1#text-h1 {
-        font-size: 2.7em;
-    }
-    p#text-p {
-        font-size: 18px;
-        width: 80%;
-    }
     
 
-    button#button-consultar {
-        font-size: 19px;
-    }
-
-    img#index-img{
-        
-    width: 100%;
-    height: 100%;
-    }
-
-}
-
-    
-
-@media screen and (min-width:540px) and (max-width:912px){
+@media screen and (min-width:540px) and (max-width:1050px){
 body{
-    background-color: #ffffff1f;
+    background-color: #b5181800;
 }
 
 img#logo-mais-familia {

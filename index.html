@@ -37,7 +37,7 @@
                     </svg></button>
 
                 <!-- Dropdown menu -->
-                <div id="dropdownHelper"
+                <div id="dropdownHelper" style="z-index:1;"
                     class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-60 dark:bg-gray-700 dark:divide-gray-600">
                     <ul class="p-3 space-y-1 text-sm text-gray-700 dark:text-gray-200"
                         aria-labelledby="dropdownHelperButton">
@@ -76,26 +76,32 @@
                             aria-current="page" id="link">Ínicio</a>
                     </li>
 
-            
 
-        
 
-                    <li>
-                        <a   class="block py-2 pl-3 pr-4 text-blue-600 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-blue-500 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700" href="#"  id="link"  data-modal-target="crypto-modal" data-modal-target="authentication-modal" data-modal-toggle="authentication-modal">Fazer consulta</a>
-                    </li>
-
-                    
 
 
                     <li>
-                        <a href="#"  class="block py-2 pl-3 pr-4 text-blue-600 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-blue-500 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700" data-modal-toggle="crypto-modal" id="link">Relátorio final</a>
+                        <a class="block py-2 pl-3 pr-4 text-blue-600 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-blue-500 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                            href="#" id="link" data-modal-target="crypto-modal" data-modal-target="authentication-modal"
+                            data-modal-toggle="authentication-modal">Fazer consulta</a>
+                    </li>
+
+
+
+
+                    <li>
+                        <a href="#"
+                            class="block py-2 pl-3 pr-4 text-blue-600 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-blue-500 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                            data-modal-toggle="crypto-modal" id="link">Relátorio final</a>
                     </li>
 
                     <li>
-                        <a href="#"  class="block py-2 pl-3 pr-4 text-blue-600 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-blue-500 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700" data-modal-toggle="crypto-modal" id="link">Login</a>
+                        <a href="#"
+                            class="block py-2 pl-3 pr-4 text-blue-600 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-blue-500 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                            aria-current="page" id="link">Login</a>
                     </li>
 
-               
+
 
                 </ul>
             </div>
@@ -113,14 +119,22 @@
             <div id="animation-carousel" class="relative w-full" data-carousel="slide">
                 <!-- Carousel wrapper -->
                 <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+
+
                     <!-- Item 1 -->
-                    <div class="hidden duration-100 ease-linear" data-carousel-item>
+                    <div class="hidden duration-200 ease-linear" data-carousel-item>
                         <img id="index-img"
                             src="https://static.vecteezy.com/ti/fotos-gratis/p2/3313424-retrato-de-mulher-bonita-usando-um-telefone-celular-e-segurando-um-cartao-de-credito-gratis-foto.jpg"
                             class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                     </div>
                     <!-- Item 2 -->
-                    <div class="hidden duration-100 ease-linear" data-carousel-item>
+                    <div class="hidden duration-200 ease-linear" data-carousel-item>
+                        <img id="index-img"
+                            src="https://cdn.bb.com.br/wp-content/uploads/2022/12/DT_Banner_Full_Peca_Seu_Ourocard.jpg"
+                            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+                    <!-- Item 3 -->
+                    <div class="hidden duration-200 ease-linear" data-carousel-item="active">
                         <img id="index-img"
                             src="https://ciaconcursos.com/wp-content/uploads/2023/01/cartao-santander-2-7733.jpg"
                             class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
@@ -287,14 +301,15 @@
 
                     <form>
                         <div class="mb-6">
-                            <label for="countries" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Usuario:</label>
-                            <select id="countries" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                              <option selected>Relátorio final</option>
+                            <label for="countries"
+                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Usuario:</label>
+                            <select id="countries"
+                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                <option selected>Relátorio final</option>
                             </select>
                         </div>
                         <div class="mb-6">
-                            <label for="password"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+                            <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
                                 Senha</label>
                             <input id="input-consultar" type="password" id="password"
                                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
@@ -307,10 +322,11 @@
                                     required>
                             </div>
                             <label for="remember"
-                                class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Confirmar acesso</label>
+                                class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Confirmar
+                                acesso</label>
                         </div>
                         <button type="submit" style="background-color: #2694BF;"
-                            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" >Login</button>
+                            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Login</button>
                     </form>
 
                 </div>
