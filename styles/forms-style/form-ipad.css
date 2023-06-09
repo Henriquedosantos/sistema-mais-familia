@@ -1,0 +1,51 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+
+      header {
+            display: flex;
+            /* flex-direction: column; */
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 8px;
+            border-bottom: 3px solid #2BA8D9;
+            margin-bottom: 3em;
+    }
+   
+
+    img#logo-cartao {
+        height: 7em;
+        padding-left: 3em;
+    }
+    
+     div#alert {
+        font-size: 15px;
+        text-align: center;
+        margin: auto;
+        /* margin-right: -8em; */
+    }
+
+    main>h1#title-form,div#form-dependentes > h1#title-form-dependentes {
+        font-size: 2.5em;
+
+    }
+    
+
+    #link-bloquear {
+        font-size: 17px;
+    }
+
+
+
+    #button-submit {
+
+        font-size: 18px;
+    }
+
+
+
+
+
+
+
+
+}

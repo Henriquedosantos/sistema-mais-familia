@@ -1,0 +1,102 @@
+@charset  "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+
+
+
+:root {
+    ---Font: 'Nunito', sans-serif;
+    ---Cor01: rgb(62, 147, 255);
+    ---Cor03: #034e6bd0;
+    ---Cor04: #036b05df;}
+
+*{
+    margin: 0px;
+    padding:0px;
+    text-decoration: none;}
+
+
+
+main{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+    padding:35px;
+    width: 25em;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+}
+
+h1{
+    font-family: var(---Font);
+    font-weight: bold;
+    color: #2694BF;
+    font-size: 2em;
+    margin-bottom: 12px;
+
+
+}
+
+
+p{
+    font-family: var(---Font);
+    font-weight: 400;
+    font-size: 18px;
+    color: #05425b;
+    margin-bottom: 1.8em;
+   
+   
+}
+
+
+a{
+    font-family: var(---Font);
+    font-weight: 400;
+    font-size: 14px;
+    background-color: var(---Cor01);
+    color:#fff;
+
+    padding: 9px;
+    border-radius: 12px;
+    margin-right: 1em;
+}
+
+
+a#apagar{
+    background-color: brown;
+  
+}
+
+a#apagar:hover{
+    background-color: rgb(223, 58, 58);
+    transition-duration: 1s;
+}
+
+
+
+a#cancelar{
+    background-color: rgb(42, 165, 42);
+   
+}
+
+a#cancelar:hover{
+    background-color: rgb(53, 208, 53);
+    transition-duration: 1s;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

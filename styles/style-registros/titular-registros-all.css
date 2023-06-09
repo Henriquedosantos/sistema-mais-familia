@@ -1,0 +1,251 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+
+
+    
+    :root {
+        ---Font: 'Nunito', sans-serif;
+        ---Cor01: rgb(62, 147, 255);
+        ---Cor03: #034e6bd0;
+        ---Cor04: #036b05df;
+    }
+    
+    * {
+        margin: 0px;
+        padding: 0px;
+        text-decoration: none;
+    }
+    
+    
+    body {
+        background-color: #f2f2f2;
+    
+    }
+    
+    
+    
+    header {
+        display: flex;
+        justify-content: start;
+       
+        border-bottom: 3px solid #AEDFF2;
+        margin-bottom: 3em;
+        padding: 10px;
+    }
+    
+    
+    img.logotipo {
+        height: 8em;
+        margin-left: 3em;
+    }
+    
+
+    
+    /*VALOR LIQUIDO */
+    
+ 
+   
+    
+    
+    /*PESQUISA NORMAL */
+    
+     div#box-pesq {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 2em;
+        margin-bottom: 2em;
+        padding-right: 2em;
+        
+    }
+ 
+    div.caixa-pesquisa{
+
+        display: flex;
+        justify-content: end;
+        width: 100%;
+        margin-right: 0;
+    
+    }
+    
+       
+
+    div.caixa-respostas-result{
+      
+        background-color: rgba(201, 204, 201, 0.038);
+        display: inline-flex;
+        margin-left: 2em;
+       
+
+    }
+    
+        div.caixa-respostas-result>p {
+        font-family: var(---Font);
+        font-weight: 500;
+        font-size: 24px;
+        color: rgba(15, 101, 138, 0.903);
+        margin-right: 4em;
+        margin-bottom: 0;
+    }
+    
+    p.search{
+        font-size: 20px;
+        padding: 5px;
+        text-align: center;
+        margin-bottom:0em;
+       
+
+    }
+    
+ 
+  
+    
+    /*TABELAS E CONDIGRAÇÕES*/
+    
+    main{
+          width: 100%;
+          margin:auto;
+    }
+    
+    div.table-responsive {
+    /* display: block; */
+    /* margin: auto; */
+    width: 97%;
+    margin: auto;
+    background-color: rgb(251 251 251);
+    /* margin-left: 0em; */
+    /* margin-right: 0em; */
+    border-radius: 10px;
+}
+    
+    
+    th {
+        color: rgba(15, 101, 138, 0.903);
+        font: var(---Font);
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    tr{
+        font-size:17px;
+    }
+    
+    td {
+     
+        font-weight: 400;
+        text-align: center;
+    }
+    
+    th:hover {
+        color: rgba(10, 60, 81, 0.903);
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    
+    tr:nth-child(even) {
+        background-color: #dbe3ea;
+    }
+    
+    td,
+    th {
+        text-align: center;
+        color: #17587f;
+    }
+    
+    
+    
+    img#icons {
+        height: 30px;
+    }
+    
+    img#icons:hover {
+        transform: scale(1.9);
+        transition-duration: 1s;
+    }
+    
+    button.btn btn-success{
+        margin-right: 3em;
+
+    }
+    
+    div.modal-footer {
+    width: 100%;
+    margin: auto;
+  
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    /* TRATAMENTO PARA VIEWS*/
+    
+    td#ativo {
+        font-family: var(---Font);
+        font-weight: bold;
+        color: rgb(26 118 26);
+    }
+    
+    
+    
+    td#inativo {
+        font-family: var(---Font);
+        font-weight: bold;
+        color: brown;
+    }
+    
+    
+    td#edicao {
+    
+        font-weight: 500;
+        color: #3b8f2e;
+    }
+    
+    td#nulos {
+        color: #d18409;
+        font-weight: 500;
+    }
+    
+    td#delete {
+        background-color: #e1747496;
+        font-weight: 500;
+        color: #fff;
+    }
+    
+    td#edit-hj {
+        background-color: #15c23785;
+        font-weight: 500;
+        color: #ffff;
+    
+    }
+
+    td#backgorund-orange{
+        background-color: #d18409ab;; 
+        font-weight: 500;
+        color: #ffff;
+    
+    }
+    
+    
+    /*ADAPTAÇÃO VENDAS*/
+    
+      div#box-pesq-vendas{
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin-bottom: 2em;
+             
+         }  
+         
+         
+    div.modal-footer{
+        width: 96%;
+        margin: auto;
+    } 
+    
+    
+  

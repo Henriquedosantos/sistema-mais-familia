@@ -1,0 +1,239 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+img#logo-mais-familia {
+    height: 6em;
+}
+
+a#link {
+    font-size: 20px;
+}
+
+a#link,
+a#link:active {
+    color: #2694BF
+}
+
+a#link:hover {
+    color: #21779a
+}
+
+button#dropdownHelperButton,
+#login-button {
+    font-size: 17px;
+    padding: 15px
+}
+
+
+main {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+div#caixa-border-radius-index,
+div#caixa-img-index {
+    width: 100%;
+    height: 100%;
+}
+
+img#index-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0em 0em 20em 0em;
+}
+
+.md\:h-96 {
+    height: 90vh;
+
+}
+
+div#caixa-border-radius-index {
+    width: 80%;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    width: 30em;
+    margin: auto;
+}
+
+h1#text-h1 {
+    text-align: center;
+    font-size: 3em;
+    width: 100%;
+    color: #2694BF
+}
+
+
+p#text-p {
+
+    font-size: 20px;
+    width: 90%;
+    text-align: justify;
+    color: #363636;
+
+}
+
+button#button-consultar {
+    font-size: 20px;
+    width: 20em;
+    padding: 15px;
+
+}
+
+#input-consultar:focus {
+    border-color: #2694BF;
+}
+
+
+@media screen and (min-width: 675px) and (max-width:1024px) {
+
+    body {
+        background-color: rgb(255, 255, 255);
+    }
+
+    img#logo-mais-familia {
+        height: 4.6em;
+    }
+
+    a#link {
+        font-size: 18px;
+    }
+
+    button#dropdownHelperButton,
+    #login-button {
+        font-size: 15px;
+        padding: 15px;
+    }
+    h1#text-h1 {
+        font-size: 2.7em;
+    }
+    p#text-p {
+        font-size: 18px;
+        width: 80%;
+    }
+    
+
+    button#button-consultar {
+        font-size: 19px;
+    }
+
+    img#index-img{
+        
+    width: 100%;
+    height: 100%;
+    }
+
+}
+
+    
+
+@media screen and (min-width:540px) and (max-width:912px){
+body{
+    background-color: #ffffff1f;
+}
+
+img#logo-mais-familia {
+    height: 5em;
+}
+
+a#link {
+    font-size: 16px;
+}
+
+button#dropdownHelperButton,
+#login-button {
+    font-size: 15px;
+    padding: 15px;
+}
+
+
+main{
+    flex-direction: column;
+    gap: 2em;
+}
+
+.md\:h-96 {
+    height: 50vh;
+}
+
+article{
+    align-items: flex-start;
+    width: 100%;
+}
+
+h1#text-h1 {
+    font-size: 2.5em;
+    text-align: start;
+}
+
+}
+
+
+@media screen and (min-width:200px) and (max-width:540px){
+    body{
+        background-color: #f4f4f400;
+    }
+
+    div#caixa-border-radius-index {
+        width: 90%;
+    }
+    
+    img#logo-mais-familia {
+        height: 4em;
+    }
+    
+    a#link {
+        font-size: 16px;
+    }
+    
+    button#dropdownHelperButton,
+    #login-button {
+        display: none;
+    }
+    
+    
+    main{
+        flex-direction: column;
+        gap: 2em;
+    }
+    
+    .md\:h-96 {
+        height: 40vh;
+    }
+    
+    article{
+        align-items: flex-start;
+        width: 100%;
+    }
+    
+    h1#text-h1 {
+        font-size:1.8em;
+        text-align: start;
+    }
+
+    p#text-p {
+        font-size: 17px;
+        width:100%;
+    }
+    
+
+    button#button-consultar {
+        font-size: 18px;
+        width: 100%;
+        padding: 15px;
+    }
+    
+    }
